@@ -1,8 +1,21 @@
-update=1/24/2021 8:10:50 PM
+update=Tue 09 Oct 2012 09:10:18 AM CEST
 version=1
-last_client=kicad
+last_client=pcbnew
 [general]
 version=1
+[eeschema]
+version=1
+LibDir=
+NetFmt=1
+HPGLSpd=20
+HPGLDm=15
+HPGLNum=1
+RptD_X=0
+RptD_Y=100
+RptLab=1
+LabSize=60
+[eeschema/libraries]
+LibName1=component
 [cvpcb]
 version=1
 NetIExt=net
@@ -28,6 +41,3 @@ MSegLar=240
 [pcbnew/libraries]
 LibDir=
 LibName1=footprint
-[eeschema]
-version=1
-LibDir=

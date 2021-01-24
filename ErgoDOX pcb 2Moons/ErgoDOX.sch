@@ -82,12 +82,12 @@ $EndComp
 $Comp
 L component:GND #PWR01
 U 1 1 4F64E513
-P 700 3450
-F 0 "#PWR01" H 700 3450 30  0001 C CNN
-F 1 "GND" H 700 3380 30  0001 C CNN
-F 2 "" H 700 3450 60  0001 C CNN
-F 3 "" H 700 3450 60  0001 C CNN
-	1    700  3450
+P -3975 7675
+F 0 "#PWR01" H -3975 7675 30  0001 C CNN
+F 1 "GND" H -3975 7605 30  0001 C CNN
+F 2 "" H -3975 7675 60  0001 C CNN
+F 3 "" H -3975 7675 60  0001 C CNN
+	1    -3975 7675
 	0    1    1    0   
 $EndComp
 $Comp
@@ -422,35 +422,35 @@ F 3 "" H 1900 6700 60  0001 C CNN
 	1    1900 6700
 	1    0    0    -1  
 $EndComp
-Text Label 1950 3500 0    60   ~ 0
+Text Label -2725 7725 0    60   ~ 0
 ROW4
-Text Label 1950 3600 0    60   ~ 0
+Text Label -2725 7825 0    60   ~ 0
 ROW3
-Text Label 1950 3700 0    60   ~ 0
+Text Label -2725 7925 0    60   ~ 0
 ROW2
-Text Label 1950 3800 0    60   ~ 0
+Text Label -2725 8025 0    60   ~ 0
 ROW1
-Text Label 1950 3900 0    60   ~ 0
+Text Label -2725 8125 0    60   ~ 0
 ROW0
-Text Label 1950 1300 0    60   ~ 0
+Text Label -2725 5525 0    60   ~ 0
 COL7
-Text Label 1950 1400 0    60   ~ 0
+Text Label -2725 5625 0    60   ~ 0
 COL8
-Text Label 1950 2150 0    60   ~ 0
+Text Label -2725 6375 0    60   ~ 0
 COL13
 Text Label 8050 2250 0    60   ~ 0
 COL1
-Text Label 1950 2600 0    60   ~ 0
+Text Label -2725 6825 0    60   ~ 0
 COL11
-Text Label 1950 1600 0    60   ~ 0
+Text Label -2725 5825 0    60   ~ 0
 COL10
-Text Label 1950 1500 0    60   ~ 0
+Text Label -2725 5725 0    60   ~ 0
 COL9
-Text Label 1950 1800 0    60   ~ 0
+Text Label -2725 6025 0    60   ~ 0
 LED_A
-Text Label 1950 1900 0    60   ~ 0
+Text Label -2725 6125 0    60   ~ 0
 LED_B
-Text Label 1950 2000 0    60   ~ 0
+Text Label -2725 6225 0    60   ~ 0
 LED_C
 $Comp
 L component:GND #PWR02
@@ -595,7 +595,7 @@ Text Label 8050 2450 0    60   ~ 0
 COL3
 Text Label 8050 2550 0    60   ~ 0
 COL4
-Text Label 1950 2700 0    60   ~ 0
+Text Label -2725 6925 0    60   ~ 0
 COL12
 $Comp
 L component:6PIN J2
@@ -674,9 +674,9 @@ F 3 "" H 5350 2800 60  0001 C CNN
 	1    5350 2800
 	0    -1   1    0   
 $EndComp
-Text Label 1950 2400 0    60   ~ 0
+Text Label -2725 6625 0    60   ~ 0
 SCLM
-Text Label 1950 2500 0    60   ~ 0
+Text Label -2725 6725 0    60   ~ 0
 SDAM
 Text Label 6450 2400 2    60   ~ 0
 SCLS
@@ -685,12 +685,12 @@ SDAS
 $Comp
 L component:TEENSY2.0 U1
 U 1 1 4FDC2FE7
-P 1350 2600
-F 0 "U1" V 1400 2600 60  0000 C CNN
-F 1 "TEENSY2.0" V 1300 2600 60  0000 C CNN
-F 2 "" H 1350 2600 60  0001 C CNN
-F 3 "" H 1350 2600 60  0001 C CNN
-	1    1350 2600
+P -3325 6825
+F 0 "U1" V -3275 6825 60  0000 C CNN
+F 1 "TEENSY2.0" V -3375 6825 60  0000 C CNN
+F 2 "" H -3325 6825 60  0001 C CNN
+F 3 "" H -3325 6825 60  0001 C CNN
+	1    -3325 6825
 	1    0    0    -1  
 $EndComp
 NoConn ~ 6450 3550
@@ -718,7 +718,7 @@ F 3 "" H 4800 4350 60  0001 C CNN
 	1    4800 4350
 	0    -1   -1   0   
 $EndComp
-Text Label 1950 3400 0    60   ~ 0
+Text Label -2725 7625 0    60   ~ 0
 ROW5
 Text Label 8050 3050 0    60   ~ 0
 ROW5
@@ -879,10 +879,10 @@ F 3 "" H 2600 8800 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 NoConn ~ 8050 2850
-NoConn ~ 1950 3250
-NoConn ~ 1950 3100
-NoConn ~ 1950 2900
-NoConn ~ 1950 2800
+NoConn ~ -2725 7475
+NoConn ~ -2725 7325
+NoConn ~ -2725 7125
+NoConn ~ -2725 7025
 $Comp
 L component:SWITCH_DIODE SW1:9
 U 1 1 4D92DF9B
@@ -907,17 +907,17 @@ F 3 "" H 4000 9300 60  0001 C CNN
 $EndComp
 NoConn ~ 6450 3650
 NoConn ~ 6450 3750
-NoConn ~ 750  3000
-NoConn ~ 1950 2250
+NoConn ~ -3925 7225
+NoConn ~ -2725 6475
 $Comp
 L component:GND #PWR014
 U 1 1 50028213
-P 700 3550
-F 0 "#PWR014" H 700 3550 30  0001 C CNN
-F 1 "GND" H 700 3480 30  0001 C CNN
-F 2 "" H 700 3550 60  0001 C CNN
-F 3 "" H 700 3550 60  0001 C CNN
-	1    700  3550
+P -3975 7775
+F 0 "#PWR014" H -3975 7775 30  0001 C CNN
+F 1 "GND" H -3975 7705 30  0001 C CNN
+F 2 "" H -3975 7775 60  0001 C CNN
+F 3 "" H -3975 7775 60  0001 C CNN
+	1    -3975 7775
 	0    1    1    0   
 $EndComp
 Text Label 5200 9550 3    60   ~ 0
@@ -970,12 +970,12 @@ $EndComp
 $Comp
 L component:VCC #PWR016
 U 1 1 500D1293
-P 1950 1700
-F 0 "#PWR016" H 1950 1800 30  0001 C CNN
-F 1 "VCC" H 1950 1800 30  0000 C CNN
-F 2 "" H 1950 1700 60  0001 C CNN
-F 3 "" H 1950 1700 60  0001 C CNN
-	1    1950 1700
+P -2725 5925
+F 0 "#PWR016" H -2725 6025 30  0001 C CNN
+F 1 "VCC" H -2725 6025 30  0000 C CNN
+F 2 "" H -2725 5925 60  0001 C CNN
+F 3 "" H -2725 5925 60  0001 C CNN
+	1    -2725 5925
 	0    1    1    0   
 $EndComp
 $Comp
@@ -994,12 +994,12 @@ NoConn ~ 6250 1700
 $Comp
 L component:GND #PWR018
 U 1 1 500D156C
-P 2000 3000
-F 0 "#PWR018" H 2000 3000 30  0001 C CNN
-F 1 "GND" H 2000 2930 30  0001 C CNN
-F 2 "" H 2000 3000 60  0001 C CNN
-F 3 "" H 2000 3000 60  0001 C CNN
-	1    2000 3000
+P -2675 7225
+F 0 "#PWR018" H -2675 7225 30  0001 C CNN
+F 1 "GND" H -2675 7155 30  0001 C CNN
+F 2 "" H -2675 7225 60  0001 C CNN
+F 3 "" H -2675 7225 60  0001 C CNN
+	1    -2675 7225
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1027,24 +1027,13 @@ $EndComp
 $Comp
 L component:VCC #PWR019
 U 1 1 50670AA1
-P 750 3100
-F 0 "#PWR019" H 750 3200 30  0001 C CNN
-F 1 "VCC" H 750 3200 30  0000 C CNN
-F 2 "" H 750 3100 60  0001 C CNN
-F 3 "" H 750 3100 60  0001 C CNN
-	1    750  3100
+P -3925 7325
+F 0 "#PWR019" H -3925 7425 30  0001 C CNN
+F 1 "VCC" H -3925 7425 30  0000 C CNN
+F 2 "" H -3925 7325 60  0001 C CNN
+F 3 "" H -3925 7325 60  0001 C CNN
+	1    -3925 7325
 	0    -1   -1   0   
-$EndComp
-$Comp
-L component:SWITCH_PUSH SW_RST1
-U 1 1 586C9F53
-P 2900 850
-F 0 "SW_RST1" H 2900 1105 50  0000 C CNN
-F 1 "SWITCH_PUSH" H 2900 1014 50  0000 C CNN
-F 2 "Buttons_Switches_SMD:SW_SPST_B3U-1000P" H 2900 850 60  0001 C CNN
-F 3 "" H 2900 850 60  0001 C CNN
-	1    2900 850 
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2200 9400 2200 9300
@@ -1200,10 +1189,8 @@ Wire Wire Line
 	4750 3400 4750 2400
 Wire Wire Line
 	4650 2500 4650 3400
-Connection ~ 4200 2400
 Wire Wire Line
 	4200 2250 4200 2400
-Connection ~ 4100 2500
 Wire Wire Line
 	4100 2250 4100 2500
 Connection ~ 5050 2500
@@ -1373,17 +1360,11 @@ Wire Wire Line
 Wire Wire Line
 	2300 6450 2300 6700
 Wire Wire Line
-	3650 2000 3650 2850
+	-2725 6225 -1025 6225
 Wire Wire Line
-	1950 2000 3650 2000
+	-2725 6125 -1275 6125
 Wire Wire Line
-	3400 1900 3400 2700
-Wire Wire Line
-	1950 1900 3400 1900
-Wire Wire Line
-	3150 1800 3150 2800
-Wire Wire Line
-	1950 1800 3150 1800
+	-2725 6025 -1525 6025
 Connection ~ 4650 2500
 Connection ~ 4750 2400
 Wire Wire Line
@@ -1403,9 +1384,9 @@ Wire Wire Line
 Wire Wire Line
 	5050 2500 5050 3400
 Wire Wire Line
-	1950 2400 4200 2400
+	-2725 6625 -475 6625
 Wire Wire Line
-	1950 2500 4100 2500
+	-2725 6725 -575 6725
 Connection ~ 3700 9050
 Connection ~ 3000 6450
 Connection ~ 4400 6450
@@ -1430,23 +1411,12 @@ Connection ~ 2300 9050
 Connection ~ 4400 9050
 Connection ~ 3000 9050
 Wire Wire Line
-	2600 850  650  850 
+	-2075 5075 -4025 5075
 Wire Wire Line
-	650  850  650  1300
+	-4025 5075 -4025 5525
 Wire Wire Line
-	650  1300 750  1300
-$Comp
-L component:GND #PWR020
-U 1 1 586D3463
-P 3250 850
-F 0 "#PWR020" H 3250 850 30  0001 C CNN
-F 1 "GND" H 3250 780 30  0001 C CNN
-F 2 "" H 3250 850 60  0001 C CNN
-F 3 "" H 3250 850 60  0001 C CNN
-	1    3250 850 
-	0    -1   -1   0   
-$EndComp
-NoConn ~ 750  1400
+	-4025 5525 -3925 5525
+NoConn ~ -3925 5625
 Wire Wire Line
 	5350 3900 4550 3900
 Wire Wire Line
@@ -1471,7 +1441,6 @@ Wire Wire Line
 	2650 5200 2650 2700
 Wire Wire Line
 	2650 2700 3400 2700
-Connection ~ 3400 2700
 Wire Wire Line
 	8050 3750 8500 3750
 Wire Wire Line
@@ -1482,12 +1451,11 @@ Wire Wire Line
 	2800 5000 2800 2800
 Wire Wire Line
 	2800 2800 3150 2800
-Connection ~ 3150 2800
 Text Label 8050 3650 0    60   ~ 0
 LED_B
 Text Label 8050 3750 0    60   ~ 0
 LED_A
-Text Label 650  1300 0    60   ~ 0
+Text Label -4025 5525 0    60   ~ 0
 RST
 Wire Wire Line
 	5000 9300 5000 9400
@@ -1651,4 +1619,433 @@ Wire Wire Line
 	3400 2700 3400 2850
 Wire Wire Line
 	3150 2800 3150 2850
+$Comp
+L ErgoDOX-rescue:ATMEGA32U4-AU-ATMEGA32U4-AU U?
+U 1 1 600B866A
+P 1250 2300
+F 0 "U?" H 1250 3770 50  0000 C CNN
+F 1 "ATMEGA32U4-AU" H 1250 3679 50  0000 C CNN
+F 2 "QFP80P1200X1200X120-44N" H 1250 2300 50  0001 L BNN
+F 3 "Atmel" H 1250 2300 50  0001 L BNN
+F 4 "26R5633" H 1250 2300 50  0001 L BNN "Field4"
+F 5 "1748525" H 1250 2300 50  0001 L BNN "Field5"
+F 6 "ATMEGA32U4-AU" H 1250 2300 50  0001 L BNN "Field6"
+F 7 "TQFP-44" H 1250 2300 50  0001 L BNN "Field7"
+	1    1250 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L component:GND #PWR?
+U 1 1 600BCA8F
+P -7650 4025
+F 0 "#PWR?" H -7650 4025 30  0001 C CNN
+F 1 "GND" H -7650 3955 30  0001 C CNN
+F 2 "" H -7650 4025 60  0001 C CNN
+F 3 "" H -7650 4025 60  0001 C CNN
+	1    -7650 4025
+	0    1    1    0   
+$EndComp
+Text Label 550  2700 2    60   ~ 0
+ROW4
+Text Label 550  2800 2    60   ~ 0
+ROW3
+Text Label 550  2900 2    60   ~ 0
+ROW2
+Text Label 550  3000 2    60   ~ 0
+ROW1
+Text Label 550  3100 2    60   ~ 0
+ROW0
+Text Label 1950 1300 0    60   ~ 0
+COL8
+Text Label 1950 2100 0    60   ~ 0
+COL13
+Text Label 1950 2600 0    60   ~ 0
+COL11
+Text Label 1950 1500 0    60   ~ 0
+COL10
+Text Label 1950 1700 0    60   ~ 0
+LED_A
+Text Label 1950 1800 0    60   ~ 0
+LED_B
+Text Label 1950 1900 0    60   ~ 0
+LED_C
+Text Label 1950 2700 0    60   ~ 0
+COL12
+Text Label 1950 2400 0    60   ~ 0
+SCLM
+Text Label 1950 2500 0    60   ~ 0
+SDAM
+$Comp
+L component:TEENSY2.0 U?
+U 1 1 600BCAB4
+P -7000 3175
+F 0 "U?" V -6950 3175 60  0000 C CNN
+F 1 "TEENSY2.0" V -7050 3175 60  0000 C CNN
+F 2 "" H -7000 3175 60  0001 C CNN
+F 3 "" H -7000 3175 60  0001 C CNN
+	1    -7000 3175
+	1    0    0    -1  
+$EndComp
+Text Label 550  2600 2    60   ~ 0
+ROW5
+NoConn ~ -6400 3825
+NoConn ~ -6400 3675
+NoConn ~ -6400 3475
+NoConn ~ -6400 3375
+NoConn ~ -7600 3575
+NoConn ~ -6400 2825
+$Comp
+L component:GND #PWR?
+U 1 1 600BCAC5
+P -7650 4125
+F 0 "#PWR?" H -7650 4125 30  0001 C CNN
+F 1 "GND" H -7650 4055 30  0001 C CNN
+F 2 "" H -7650 4125 60  0001 C CNN
+F 3 "" H -7650 4125 60  0001 C CNN
+	1    -7650 4125
+	0    1    1    0   
+$EndComp
+$Comp
+L component:VCC #PWR?
+U 1 1 600BCACF
+P -6400 2275
+F 0 "#PWR?" H -6400 2375 30  0001 C CNN
+F 1 "VCC" H -6400 2375 30  0000 C CNN
+F 2 "" H -6400 2275 60  0001 C CNN
+F 3 "" H -6400 2275 60  0001 C CNN
+	1    -6400 2275
+	0    1    1    0   
+$EndComp
+$Comp
+L component:GND #PWR?
+U 1 1 600BCAD9
+P -6350 3575
+F 0 "#PWR?" H -6350 3575 30  0001 C CNN
+F 1 "GND" H -6350 3505 30  0001 C CNN
+F 2 "" H -6350 3575 60  0001 C CNN
+F 3 "" H -6350 3575 60  0001 C CNN
+	1    -6350 3575
+	0    -1   -1   0   
+$EndComp
+$Comp
+L component:VCC #PWR?
+U 1 1 600BCAE3
+P -7600 3675
+F 0 "#PWR?" H -7600 3775 30  0001 C CNN
+F 1 "VCC" H -7600 3775 30  0000 C CNN
+F 2 "" H -7600 3675 60  0001 C CNN
+F 3 "" H -7600 3675 60  0001 C CNN
+	1    -7600 3675
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1950 1700 3150 1700
+Wire Wire Line
+	1950 2400 4200 2400
+Wire Wire Line
+	1950 2500 4100 2500
+Wire Wire Line
+	-5750 1425 -7700 1425
+Wire Wire Line
+	-7700 1425 -7700 1875
+Wire Wire Line
+	-7700 1875 -7600 1875
+NoConn ~ -7600 1975
+Text Label -7700 1875 0    60   ~ 0
+RST
+$Comp
+L component:SWITCH_PUSH SW_RST?
+U 1 1 600E1DAD
+P -5450 1425
+F 0 "SW_RST?" H -5450 1680 50  0000 C CNN
+F 1 "SWITCH_PUSH" H -5450 1589 50  0000 C CNN
+F 2 "Buttons_Switches_SMD:SW_SPST_B3U-1000P" H -5450 1425 60  0001 C CNN
+F 3 "" H -5450 1425 60  0001 C CNN
+	1    -5450 1425
+	1    0    0    -1  
+$EndComp
+$Comp
+L component:GND #PWR?
+U 1 1 600E2651
+P -5100 1425
+F 0 "#PWR?" H -5100 1425 30  0001 C CNN
+F 1 "GND" H -5100 1355 30  0001 C CNN
+F 2 "" H -5100 1425 60  0001 C CNN
+F 3 "" H -5100 1425 60  0001 C CNN
+	1    -5100 1425
+	0    -1   -1   0   
+$EndComp
+Text Label 1950 1400 0    60   ~ 0
+COL9
+Text Label 1950 1200 0    60   ~ 0
+COL7
+Connection ~ 4100 2500
+Connection ~ 4200 2400
+Wire Wire Line
+	1950 1800 3400 1800
+Wire Wire Line
+	1950 1900 3650 1900
+Wire Wire Line
+	3650 1900 3650 2850
+Wire Wire Line
+	3400 1800 3400 2700
+Connection ~ 3400 2700
+Wire Wire Line
+	3150 1700 3150 2800
+Connection ~ 3150 2800
+Wire Wire Line
+	550  3300 550  3400
+Wire Wire Line
+	550  3400 550  3500
+Connection ~ 550  3400
+Wire Wire Line
+	550  3500 550  3600
+Connection ~ 550  3500
+Wire Wire Line
+	550  3600 550  3700
+Connection ~ 550  3600
+Wire Wire Line
+	550  3700 275  3700
+Wire Wire Line
+	275  3700 275  3875
+Connection ~ 550  3700
+$Comp
+L component:GND #PWR?
+U 1 1 6036130D
+P 275 3925
+F 0 "#PWR?" H 275 3925 30  0001 C CNN
+F 1 "GND" H 275 3855 30  0001 C CNN
+F 2 "" H 275 3925 60  0001 C CNN
+F 3 "" H 275 3925 60  0001 C CNN
+	1    275  3925
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	550  1600 550  1500
+Wire Wire Line
+	550  1500 550  1400
+Connection ~ 550  1500
+Wire Wire Line
+	550  1300 550  1400
+Connection ~ 550  1400
+Wire Wire Line
+	550  1300 550  1200
+Connection ~ 550  1300
+Wire Wire Line
+	550  1200 325  1200
+Wire Wire Line
+	325  1200 325  1025
+Connection ~ 550  1200
+$Comp
+L component:VCC #PWR?
+U 1 1 603D47F9
+P 325 1025
+F 0 "#PWR?" H 325 1125 30  0001 C CNN
+F 1 "VCC" H 325 1125 30  0000 C CNN
+F 2 "" H 325 1025 60  0001 C CNN
+F 3 "" H 325 1025 60  0001 C CNN
+	1    325  1025
+	1    0    0    -1  
+$EndComp
+$Comp
+L component:SWITCH_PUSH SW?
+U 1 1 603F078B
+P -1325 2100
+F 0 "SW?" H -1325 2355 50  0000 C CNN
+F 1 "SWITCH_PUSH" H -1325 2264 50  0000 C CNN
+F 2 "" H -1325 2100 50  0001 C CNN
+F 3 "" H -1325 2100 50  0001 C CNN
+	1    -1325 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	550  2100 -625 2100
+Wire Wire Line
+	-625 2100 -625 1825
+Connection ~ -625 2100
+Wire Wire Line
+	-625 2100 -1025 2100
+$Comp
+L ErgoDOX-rescue:R_Small-device R?
+U 1 1 60423DE1
+P -625 1725
+F 0 "R?" H -566 1771 50  0000 L CNN
+F 1 "10kΩ" H -566 1680 50  0000 L CNN
+F 2 "" H -625 1725 50  0001 C CNN
+F 3 "" H -625 1725 50  0001 C CNN
+	1    -625 1725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-625 1625 -625 1075
+$Comp
+L component:VCC #PWR?
+U 1 1 6043DFEC
+P -625 1075
+F 0 "#PWR?" H -625 1175 30  0001 C CNN
+F 1 "VCC" H -625 1175 30  0000 C CNN
+F 2 "" H -625 1075 60  0001 C CNN
+F 3 "" H -625 1075 60  0001 C CNN
+	1    -625 1075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-1625 2100 -2350 2100
+Wire Wire Line
+	-2350 2100 -2350 2475
+$Comp
+L component:GND #PWR?
+U 1 1 6046EEAF
+P -2350 2525
+F 0 "#PWR?" H -2350 2525 30  0001 C CNN
+F 1 "GND" H -2350 2455 30  0001 C CNN
+F 2 "" H -2350 2525 60  0001 C CNN
+F 3 "" H -2350 2525 60  0001 C CNN
+	1    -2350 2525
+	1    0    0    -1  
+$EndComp
+$Comp
+L ErgoDOX-rescue:Resonator_Small-device Y?
+U 1 1 60470FE4
+P -450 2300
+F 0 "Y?" V -755 2250 50  0000 C CNN
+F 1 "16MHz" V -664 2250 50  0000 C CNN
+F 2 "" H -475 2300 50  0001 C CNN
+F 3 "" H -475 2300 50  0001 C CNN
+	1    -450 2300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	550  2200 -350 2200
+Wire Wire Line
+	1950 3600 1950 4175
+Wire Wire Line
+	-350 2400 -350 4175
+Wire Wire Line
+	-350 4175 1950 4175
+Wire Wire Line
+	-650 2300 -975 2300
+Wire Wire Line
+	-975 2300 -975 2525
+$Comp
+L component:GND #PWR?
+U 1 1 604DA837
+P -975 2575
+F 0 "#PWR?" H -975 2575 30  0001 C CNN
+F 1 "GND" H -975 2505 30  0001 C CNN
+F 2 "" H -975 2575 60  0001 C CNN
+F 3 "" H -975 2575 60  0001 C CNN
+	1    -975 2575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	550  2400 -175 2400
+Wire Wire Line
+	-175 2400 -175 2325
+$Comp
+L component:VCC #PWR?
+U 1 1 604F58E0
+P -175 2325
+F 0 "#PWR?" H -175 2425 30  0001 C CNN
+F 1 "VCC" H -175 2425 30  0000 C CNN
+F 2 "" H -175 2325 60  0001 C CNN
+F 3 "" H -175 2325 60  0001 C CNN
+	1    -175 2325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	550  2300 50   2300
+Wire Wire Line
+	50   2300 50   2750
+$Comp
+L ErgoDOX-rescue:C_Small-device C?
+U 1 1 6052A3EC
+P 50 2850
+F 0 "C?" H 142 2896 50  0000 L CNN
+F 1 "1uF" H 142 2805 50  0000 L CNN
+F 2 "" H 50  2850 50  0001 C CNN
+F 3 "" H 50  2850 50  0001 C CNN
+	1    50   2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	50   2950 50   3225
+$Comp
+L component:GND #PWR?
+U 1 1 60546ADD
+P 50 3275
+F 0 "#PWR?" H 50  3275 30  0001 C CNN
+F 1 "GND" H 50  3205 30  0001 C CNN
+F 2 "" H 50  3275 60  0001 C CNN
+F 3 "" H 50  3275 60  0001 C CNN
+	1    50   3275
+	1    0    0    -1  
+$EndComp
+NoConn ~ 550  2000
+Wire Wire Line
+	550  1800 150  1800
+$Comp
+L ErgoDOX-rescue:R_Small-device R?
+U 1 1 6059AC25
+P 50 1800
+F 0 "R?" V -146 1800 50  0000 C CNN
+F 1 "R_Small" V -55 1800 50  0000 C CNN
+F 2 "" H 50  1800 50  0001 C CNN
+F 3 "" H 50  1800 50  0001 C CNN
+	1    50   1800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	550  1900 -75  1900
+$Comp
+L ErgoDOX-rescue:R_Small-device R?
+U 1 1 6059E9DB
+P -175 1900
+F 0 "R?" V -100 1900 50  0000 C CNN
+F 1 "R_Small" V -25 1900 50  0000 C CNN
+F 2 "" H -175 1900 50  0001 C CNN
+F 3 "" H -175 1900 50  0001 C CNN
+	1    -175 1900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-50  1800 -175 1800
+Wire Wire Line
+	-275 1900 -400 1900
+Text GLabel -175 1800 0    50   Input ~ 0
+D-
+Text GLabel -400 1900 0    50   Input ~ 0
+D+
+Wire Wire Line
+	1950 3300 2225 3300
+$Comp
+L ErgoDOX-rescue:R_Small-device R?
+U 1 1 605F6BF1
+P 2325 3300
+F 0 "R?" V 2129 3300 50  0000 C CNN
+F 1 "10kΩ" V 2220 3300 50  0000 C CNN
+F 2 "" H 2325 3300 50  0001 C CNN
+F 3 "" H 2325 3300 50  0001 C CNN
+	1    2325 3300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2425 3300 2525 3300
+Wire Wire Line
+	2525 3300 2525 3475
+$Comp
+L component:GND #PWR?
+U 1 1 60614A75
+P 2525 3525
+F 0 "#PWR?" H 2525 3525 30  0001 C CNN
+F 1 "GND" H 2525 3455 30  0001 C CNN
+F 2 "" H 2525 3525 60  0001 C CNN
+F 3 "" H 2525 3525 60  0001 C CNN
+	1    2525 3525
+	1    0    0    -1  
+$EndComp
+Text GLabel 4650 4150 1    50   Input ~ 0
+D-
+Text GLabel 4750 4150 1    50   Input ~ 0
+D+
 $EndSCHEMATC
