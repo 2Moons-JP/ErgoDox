@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name component)(type Legacy)(uri ${KIPRJMOD}/component.lib)(options "")(descr ""))
   (lib (name ErgoDOX-rescue)(type Legacy)(uri ${KIPRJMOD}/ErgoDOX-rescue.lib)(options "")(descr ""))
+  (lib (name eec)(type Legacy)(uri C:/Users/Zeus/Documents/GitHub/2moons-library/kicad-symbols/eec.lib)(options "")(descr ""))
 )
