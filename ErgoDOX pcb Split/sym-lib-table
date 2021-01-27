@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name component)(type Legacy)(uri ${KIPRJMOD}/component.lib)(options "")(descr ""))
+  (lib (name ErgoDOX-rescue)(type Legacy)(uri ${KIPRJMOD}/ErgoDOX-rescue.lib)(options "")(descr ""))
+)
