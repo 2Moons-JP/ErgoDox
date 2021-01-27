@@ -1,0 +1,1676 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Label 9375 2150 0    60   ~ 0
+COL1
+$Comp
+L component:VCC #PWR?
+U 1 1 60333ED9
+P 8275 2550
+AR Path="/60333ED9" Ref="#PWR?"  Part="1" 
+AR Path="/6032D8F0/60333ED9" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8275 2650 30  0001 C CNN
+F 1 "VCC" H 8275 2650 30  0000 C CNN
+F 2 "" H 8275 2550 60  0001 C CNN
+F 3 "" H 8275 2550 60  0001 C CNN
+	1    8275 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L component:GND #PWR?
+U 1 1 60333EDF
+P 8225 2350
+AR Path="/60333EDF" Ref="#PWR?"  Part="1" 
+AR Path="/6032D8F0/60333EDF" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8225 2350 30  0001 C CNN
+F 1 "GND" H 8225 2280 30  0001 C CNN
+F 2 "" H 8225 2350 60  0001 C CNN
+F 3 "" H 8225 2350 60  0001 C CNN
+	1    8225 2350
+	0    1    1    0   
+$EndComp
+Text Label 9375 3050 0    60   ~ 0
+ROW4
+Text Label 9375 3150 0    60   ~ 0
+ROW3
+Text Label 9375 3250 0    60   ~ 0
+ROW2
+Text Label 9375 3350 0    60   ~ 0
+ROW1
+Text Label 9375 3450 0    60   ~ 0
+ROW0
+Text Label 9375 2650 0    60   ~ 0
+COL6
+Text Label 9375 2550 0    60   ~ 0
+COL5
+Text Label 9375 2050 0    60   ~ 0
+COL0
+Text Label 9375 2250 0    60   ~ 0
+COL2
+Text Label 9375 2350 0    60   ~ 0
+COL3
+Text Label 9375 2450 0    60   ~ 0
+COL4
+Text Label 9375 2950 0    60   ~ 0
+ROW5
+NoConn ~ 9375 2750
+Wire Wire Line
+	9375 3550 10025 3550
+Wire Wire Line
+	9375 3650 9825 3650
+Text Label 9375 3550 0    60   ~ 0
+LED_B
+Text Label 9375 3650 0    60   ~ 0
+LED_A
+$Comp
+L eec:MCP23018-E_SS U?
+U 1 1 60333F06
+P 8175 2050
+AR Path="/60333F06" Ref="U?"  Part="1" 
+AR Path="/6032D8F0/60333F06" Ref="U?"  Part="1" 
+F 0 "U?" H 8825 2315 50  0000 C CNN
+F 1 "MCP23018-E_SS" H 8825 2224 50  0000 C CNN
+F 2 "Microchip-MCP23018-E_SS-*" H 8175 2450 50  0001 L CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22103a.pdf" H 8175 2550 50  0001 L CNN
+F 4 "MO-150-AG" H 8175 2650 50  0001 L CNN "Code  JEDEC"
+F 5 "Manufacturer URL" H 8175 2750 50  0001 L CNN "Component Link 1 Description"
+F 6 "http://www.microchip.com/" H 8175 2850 50  0001 L CNN "Component Link 1 URL"
+F 7 "Package Specification" H 8175 2950 50  0001 L CNN "Component Link 3 Description"
+F 8 "http://www.microchip.com/stellent/groups/techpub_sg/documents/packagingspec/en012702.pdf" H 8175 3050 50  0001 L CNN "Component Link 3 URL"
+F 9 "revA, Sep-2008" H 8175 3150 50  0001 L CNN "Datasheet Version"
+F 10 "24-Lead Plastic Shrink Small Outline (SS) - 5.3mm Body [SSOP]" H 8175 3250 50  0001 L CNN "Package Description"
+F 11 "revBB, Aug-2009" H 8175 3350 50  0001 L CNN "Package Version"
+F 12 "IC" H 8175 3450 50  0001 L CNN "category"
+F 13 "1159047" H 8175 3550 50  0001 L CNN "ciiva ids"
+F 14 "2a8c1b1cc8b54f6d" H 8175 3650 50  0001 L CNN "library id"
+F 15 "Microchip" H 8175 3750 50  0001 L CNN "manufacturer"
+F 16 "SSOP-SS24" H 8175 3850 50  0001 L CNN "package"
+F 17 "1331939366" H 8175 3950 50  0001 L CNN "release date"
+F 18 "A32BB52E-C1AB-4573-99EA-BF3448FBDA05" H 8175 4050 50  0001 L CNN "vault revision"
+F 19 "yes" H 8175 4150 50  0001 L CNN "imported"
+	1    8175 2050
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8275 2750
+NoConn ~ 8275 2850
+NoConn ~ 8275 3450
+NoConn ~ 8275 3650
+Text GLabel 8275 2050 0    50   Input ~ 0
+SCLS
+Text GLabel 8275 2150 0    50   Input ~ 0
+SDAS
+Text GLabel 10025 3550 2    50   Input ~ 0
+LED_A
+Text GLabel 9825 3650 2    50   Input ~ 0
+LED_B
+Text Label 1550 2625 2    60   ~ 0
+ROW4
+Text Label 1550 3275 2    60   ~ 0
+ROW3
+Text Label 1550 3925 2    60   ~ 0
+ROW2
+Text Label 1550 4575 2    60   ~ 0
+ROW1
+Text Label 1550 5225 2    60   ~ 0
+ROW0
+Text Label 1950 6025 3    60   ~ 0
+COL6
+Text Label 2650 6025 3    60   ~ 0
+COL5
+Text Label 6150 6025 3    60   ~ 0
+COL0
+Text Label 5450 6025 3    60   ~ 0
+COL1
+Text Label 4750 6025 3    60   ~ 0
+COL2
+Text Label 4050 6025 3    60   ~ 0
+COL3
+Text Label 3350 6025 3    60   ~ 0
+COL4
+Text Label 1550 1975 2    60   ~ 0
+ROW5
+$Comp
+L component:SWITCH_DIODE SW5:?
+U 1 1 60DCF234
+P 6350 2225
+AR Path="/60DCF234" Ref="SW5:?"  Part="1" 
+AR Path="/6032D8F0/60DCF234" Ref="SW5:0"  Part="1" 
+F 0 "SW5:0" H 6500 2335 50  0000 C CNN
+F 1 "SW5:0" H 6350 2145 50  0000 C CNN
+F 2 "" H 6350 2225 60  0001 C CNN
+F 3 "" H 6350 2225 60  0001 C CNN
+	1    6350 2225
+	1    0    0    -1  
+$EndComp
+$Comp
+L component:SWITCH_PUSH SX1:?
+U 1 1 60DCF23A
+P 2850 4825
+AR Path="/60DCF23A" Ref="SX1:?"  Part="1" 
+AR Path="/6032D8F0/60DCF23A" Ref="SX1:5"  Part="1" 
+F 0 "SX1:5" H 3000 4935 50  0000 C CNN
+F 1 "SX1:5" H 2850 4745 50  0000 C CNN
+F 2 "" H 2850 4825 60  0001 C CNN
+F 3 "" H 2850 4825 60  0001 C CNN
+	1    2850 4825
+	1    0    0    -1  
+$EndComp
+$Comp
+L component:SWITCH_PUSH SX0:?
+U 1 1 60DCF246
+P 4250 5425
+AR Path="/60DCF246" Ref="SX0:?"  Part="1" 
+AR Path="/6032D8F0/60DCF246" Ref="SX0:3"  Part="1" 
+F 0 "SX0:3" H 4400 5535 50  0000 C CNN
+F 1 "SX0:3" H 4100 5525 50  0000 C CNN
+F 2 "" H 4250 5425 60  0001 C CNN
+F 3 "" H 4250 5425 60  0001 C CNN
+	1    4250 5425
+	1    0    0    -1  
+$EndComp
+$Comp
+L component:SWITCH_PUSH SX0:?
+U 1 1 60DCF24C
+P 4950 5425
+AR Path="/60DCF24C" Ref="SX0:?"  Part="1" 
+AR Path="/6032D8F0/60DCF24C" Ref="SX0:2"  Part="1" 
+F 0 "SX0:2" H 5100 5535 50  0000 C CNN
+F 1 "SX0:2" H 4950 5345 50  0000 C CNN
+F 2 "" H 4950 5425 60  0001 C CNN
+F 3 "" H 4950 5425 60  0001 C CNN
+	1    4950 5425
+	1    0    0    -1  
+$EndComp
+$Comp
+L component:DIODE D1:?
+U 1 1 60DCF252
+P 2150 4975
+AR Path="/60DCF252" Ref="D1:?"  Part="1" 
+AR Path="/6032D8F0/60DCF252" Ref="D1:?"  Part="1" 
+F 0 "D1:?" H 2050 4925 40  0000 C CNN
+F 1 "D" H 2150 5025 40  0000 C CNN
+F 2 "" H 2150 4975 60  0001 C CNN
+F 3 "" H 2150 4975 60  0001 C CNN
+	1    2150 4975
+	-1   0    0    1   
+$EndComp
+$Comp
+L component:DIODE D1:?
+U 1 1 60DCF258
+P 2850 4975
+AR Path="/60DCF258" Ref="D1:?"  Part="1" 
+AR Path="/6032D8F0/60DCF258" Ref="D1:?"  Part="1" 
+F 0 "D1:?" H 2750 4925 40  0000 C CNN
+F 1 "D" H 2850 5025 40  0000 C CNN
+F 2 "" H 2850 4975 60  0001 C CNN
+F 3 "" H 2850 4975 60  0001 C CNN
+	1    2850 4975
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2450 5575 2450 5475
+Wire Wire Line
+	2350 5575 2450 5575
+Wire Wire Line
+	3150 5575 3150 5475
+Wire Wire Line
+	3050 5575 3150 5575
+Wire Wire Line
+	3850 5575 3850 5475
+Wire Wire Line
+	3750 5575 3850 5575
+Wire Wire Line
+	5950 5575 5950 5475
+Wire Wire Line
+	5850 5575 5950 5575
+Wire Wire Line
+	5950 4925 5950 4825
+Wire Wire Line
+	5850 4925 5950 4925
+Wire Wire Line
+	6650 4925 6650 4825
+Wire Wire Line
+	6550 4925 6650 4925
+Wire Wire Line
+	6650 4275 6650 4175
+Wire Wire Line
+	6550 4275 6650 4275
+Wire Wire Line
+	5950 4275 5950 4175
+Wire Wire Line
+	5850 4275 5950 4275
+Wire Wire Line
+	3850 4925 3850 4825
+Wire Wire Line
+	3750 4925 3850 4925
+Wire Wire Line
+	4550 4925 4550 4825
+Wire Wire Line
+	4450 4925 4550 4925
+Wire Wire Line
+	5250 4925 5250 4825
+Wire Wire Line
+	5150 4925 5250 4925
+Wire Wire Line
+	5250 4275 5250 4175
+Wire Wire Line
+	5150 4275 5250 4275
+Wire Wire Line
+	4550 4275 4550 4175
+Wire Wire Line
+	4450 4275 4550 4275
+Wire Wire Line
+	3850 4275 3850 4175
+Wire Wire Line
+	3750 4275 3850 4275
+Wire Wire Line
+	3150 4275 3150 4175
+Wire Wire Line
+	3050 4275 3150 4275
+Wire Wire Line
+	2450 4275 2450 4175
+Wire Wire Line
+	2350 4275 2450 4275
+Wire Wire Line
+	3150 3625 3150 3525
+Wire Wire Line
+	3050 3625 3150 3625
+Wire Wire Line
+	3850 3625 3750 3625
+Wire Wire Line
+	3850 3525 3850 3625
+Wire Wire Line
+	4550 3625 4550 3525
+Wire Wire Line
+	4450 3625 4550 3625
+Wire Wire Line
+	5250 3625 5250 3525
+Wire Wire Line
+	5150 3625 5250 3625
+Wire Wire Line
+	5950 3625 5950 3525
+Wire Wire Line
+	5850 3625 5950 3625
+Wire Wire Line
+	6650 3625 6650 3525
+Wire Wire Line
+	6550 3625 6650 3625
+Wire Wire Line
+	6650 2975 6650 2875
+Wire Wire Line
+	6550 2975 6650 2975
+Wire Wire Line
+	6650 2325 6650 2225
+Wire Wire Line
+	6550 2325 6650 2325
+Wire Wire Line
+	5950 2325 5950 2225
+Wire Wire Line
+	5850 2325 5950 2325
+Wire Wire Line
+	5950 2975 5950 2875
+Wire Wire Line
+	5850 2975 5950 2975
+Wire Wire Line
+	5250 2975 5250 2875
+Wire Wire Line
+	5150 2975 5250 2975
+Wire Wire Line
+	5250 2325 5250 2225
+Wire Wire Line
+	5150 2325 5250 2325
+Wire Wire Line
+	3850 2975 3850 2875
+Wire Wire Line
+	3750 2975 3850 2975
+Wire Wire Line
+	4550 2975 4550 2875
+Wire Wire Line
+	4450 2975 4550 2975
+Wire Wire Line
+	4550 2325 4550 2225
+Wire Wire Line
+	4450 2325 4550 2325
+Wire Wire Line
+	3850 2325 3850 2225
+Wire Wire Line
+	3750 2325 3850 2325
+Wire Wire Line
+	3150 2325 3150 2225
+Wire Wire Line
+	3050 2325 3150 2325
+Wire Wire Line
+	3150 2975 3150 2875
+Wire Wire Line
+	3050 2975 3150 2975
+Wire Wire Line
+	2450 2975 2450 2875
+Wire Wire Line
+	2350 2975 2450 2975
+Wire Wire Line
+	2450 2325 2450 2225
+Wire Wire Line
+	2350 2325 2450 2325
+Connection ~ 5250 5475
+Wire Wire Line
+	5250 5575 5150 5575
+Connection ~ 4550 5475
+Wire Wire Line
+	4550 5575 4450 5575
+Wire Wire Line
+	2450 4975 2350 4975
+Wire Wire Line
+	2450 4825 2450 4975
+Connection ~ 2650 4975
+Connection ~ 1950 4975
+Wire Wire Line
+	4550 5425 4550 5475
+Wire Wire Line
+	5250 5425 5250 5475
+Connection ~ 4650 5425
+Connection ~ 3950 5425
+Wire Wire Line
+	3150 4975 3050 4975
+Wire Wire Line
+	3150 4825 3150 4975
+Connection ~ 2550 4575
+Wire Wire Line
+	2550 4825 2550 4575
+Connection ~ 1850 4575
+Wire Wire Line
+	1850 4825 1850 4575
+Wire Wire Line
+	1550 5225 1850 5225
+Wire Wire Line
+	1550 4575 1850 4575
+Wire Wire Line
+	1550 3925 1850 3925
+Wire Wire Line
+	1550 3275 2550 3275
+Wire Wire Line
+	1550 2625 1850 2625
+Connection ~ 1850 1975
+Wire Wire Line
+	1850 2225 1850 1975
+Wire Wire Line
+	6050 1975 6050 2225
+Wire Wire Line
+	5350 1975 5350 2225
+Wire Wire Line
+	4650 1975 4650 2225
+Wire Wire Line
+	3950 1975 3950 2225
+Wire Wire Line
+	3250 1975 3250 2225
+Wire Wire Line
+	2550 1975 2550 2225
+Connection ~ 3250 1975
+Connection ~ 4650 1975
+Connection ~ 5350 1975
+Connection ~ 3950 1975
+Connection ~ 2550 1975
+Wire Wire Line
+	6050 3275 6050 3525
+Wire Wire Line
+	4650 3275 4650 3525
+Connection ~ 1850 5225
+Wire Wire Line
+	1850 5475 1850 5225
+Connection ~ 1850 3925
+Wire Wire Line
+	1850 4175 1850 3925
+Connection ~ 1850 2625
+Wire Wire Line
+	1850 2875 1850 2625
+Connection ~ 4050 5575
+Connection ~ 4750 5575
+Wire Wire Line
+	5350 3275 5350 3525
+Wire Wire Line
+	4650 3925 4650 4175
+Wire Wire Line
+	5350 3925 5350 4175
+Wire Wire Line
+	6050 3925 6050 4175
+Wire Wire Line
+	6050 4575 6050 4825
+Wire Wire Line
+	5350 5225 5350 5475
+Wire Wire Line
+	4650 5225 4650 5425
+Wire Wire Line
+	5350 4575 5350 4825
+Wire Wire Line
+	4650 4575 4650 4825
+Wire Wire Line
+	3950 5225 3950 5425
+Wire Wire Line
+	3950 4575 3950 4825
+Wire Wire Line
+	3250 4575 3250 4825
+Wire Wire Line
+	3250 5225 3250 5475
+Wire Wire Line
+	2550 5225 2550 5475
+Wire Wire Line
+	3950 3925 3950 4175
+Wire Wire Line
+	3250 3925 3250 4175
+Wire Wire Line
+	2550 3925 2550 4175
+Wire Wire Line
+	3950 3275 3950 3525
+Wire Wire Line
+	3250 3275 3250 3525
+Wire Wire Line
+	2550 3275 2550 3525
+Wire Wire Line
+	6050 2625 6050 2875
+Wire Wire Line
+	5350 2625 5350 2875
+Wire Wire Line
+	4650 2625 4650 2875
+Wire Wire Line
+	3950 2625 3950 2875
+Wire Wire Line
+	3250 2625 3250 2875
+Wire Wire Line
+	2550 2625 2550 2875
+Connection ~ 3950 5225
+Connection ~ 3250 2625
+Connection ~ 4650 2625
+Connection ~ 5350 2625
+Connection ~ 3950 2625
+Connection ~ 2550 2625
+Connection ~ 2550 3275
+Connection ~ 3950 3275
+Connection ~ 5350 3275
+Connection ~ 4650 3275
+Connection ~ 3250 3275
+Connection ~ 2550 3925
+Connection ~ 3950 3925
+Connection ~ 5350 3925
+Connection ~ 4650 3925
+Connection ~ 3250 3925
+Connection ~ 3950 4575
+Connection ~ 5350 4575
+Connection ~ 4650 4575
+Connection ~ 3250 4575
+Connection ~ 2550 5225
+Connection ~ 4650 5225
+Connection ~ 3250 5225
+Wire Wire Line
+	5250 5475 5250 5575
+Wire Wire Line
+	4550 5475 4550 5575
+Wire Wire Line
+	4650 5425 4650 5475
+Wire Wire Line
+	3950 5425 3950 5475
+Wire Wire Line
+	2550 4575 3250 4575
+Wire Wire Line
+	1850 4575 2550 4575
+Wire Wire Line
+	3250 1975 3950 1975
+Wire Wire Line
+	4650 1975 5350 1975
+Wire Wire Line
+	5350 1975 6050 1975
+Wire Wire Line
+	3950 1975 4650 1975
+Wire Wire Line
+	2550 1975 3250 1975
+Wire Wire Line
+	1850 5225 2550 5225
+Wire Wire Line
+	1850 3925 2550 3925
+Wire Wire Line
+	1850 2625 2550 2625
+Wire Wire Line
+	4050 5575 4050 6025
+Wire Wire Line
+	4750 5575 4750 6025
+Wire Wire Line
+	3950 5225 4650 5225
+Wire Wire Line
+	3250 2625 3950 2625
+Wire Wire Line
+	4650 2625 5350 2625
+Wire Wire Line
+	5350 2625 6050 2625
+Wire Wire Line
+	3950 2625 4650 2625
+Wire Wire Line
+	2550 2625 3250 2625
+Wire Wire Line
+	2550 3275 3250 3275
+Wire Wire Line
+	3950 3275 4650 3275
+Wire Wire Line
+	5350 3275 6050 3275
+Wire Wire Line
+	4650 3275 5350 3275
+Wire Wire Line
+	3250 3275 3950 3275
+Wire Wire Line
+	2550 3925 3250 3925
+Wire Wire Line
+	3950 3925 4650 3925
+Wire Wire Line
+	5350 3925 6050 3925
+Wire Wire Line
+	4650 3925 5350 3925
+Wire Wire Line
+	3250 3925 3950 3925
+Wire Wire Line
+	3950 4575 4650 4575
+Wire Wire Line
+	5350 4575 6050 4575
+Wire Wire Line
+	4650 4575 5350 4575
+Wire Wire Line
+	3250 4575 3950 4575
+Wire Wire Line
+	2550 5225 3250 5225
+Wire Wire Line
+	4650 5225 5350 5225
+Wire Wire Line
+	3250 5225 3950 5225
+$Comp
+L component:SWITCH_PUSH SW5:?
+U 1 1 60DCF333
+P 2150 2225
+AR Path="/60DCF333" Ref="SW5:?"  Part="1" 
+AR Path="/6032D8F0/60DCF333" Ref="SW5:6"  Part="1" 
+F 0 "SW5:6" H 2325 2325 50  0000 C CNN
+F 1 "SW5:6" H 2000 2325 50  0000 C CNN
+F 2 "" H 2150 2225 60  0001 C CNN
+F 3 "" H 2150 2225 60  0001 C CNN
+	1    2150 2225
+	1    0    0    -1  
+$EndComp
+$Comp
+L component:DIODE D5:?
+U 1 1 60DCF339
+P 2150 2325
+AR Path="/60DCF339" Ref="D5:?"  Part="1" 
+AR Path="/6032D8F0/60DCF339" Ref="D5:?"  Part="1" 
+F 0 "D5:?" H 2000 2375 40  0000 C CNN
+F 1 "D" H 2150 2375 40  0000 C CNN
+F 2 "" H 2150 2325 60  0001 C CNN
+F 3 "" H 2150 2325 60  0001 C CNN
+	1    2150 2325
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1850 1975 2550 1975
+Wire Wire Line
+	1550 1975 1850 1975
+$Comp
+L component:SWITCH_PUSH SW5:?
+U 1 1 60DCF341
+P 2850 2225
+AR Path="/60DCF341" Ref="SW5:?"  Part="1" 
+AR Path="/6032D8F0/60DCF341" Ref="SW5:5"  Part="1" 
+F 0 "SW5:5" H 3025 2325 50  0000 C CNN
+F 1 "SW5:5" H 2700 2325 50  0000 C CNN
+F 2 "" H 2850 2225 60  0001 C CNN
+F 3 "" H 2850 2225 60  0001 C CNN
+	1    2850 2225
+	1    0    0    -1  
+$EndComp
+$Comp
+L component:DIODE D5:?
+U 1 1 60DCF347
+P 2850 2325
+AR Path="/60DCF347" Ref="D5:?"  Part="1" 
+AR Path="/6032D8F0/60DCF347" Ref="D5:?"  Part="1" 
+F 0 "D5:?" H 2700 2375 40  0000 C CNN
+F 1 "D" H 2850 2375 40  0000 C CNN
+F 2 "" H 2850 2325 60  0001 C CNN
+F 3 "" H 2850 2325 60  0001 C CNN
+	1    2850 2325
+	-1   0    0    1   
+$EndComp
+$Comp
+L component:SWITCH_PUSH SW5:?
+U 1 1 60DCF34D
+P 3550 2225
+AR Path="/60DCF34D" Ref="SW5:?"  Part="1" 
+AR Path="/6032D8F0/60DCF34D" Ref="SW5:4"  Part="1" 
+F 0 "SW5:4" H 3725 2325 50  0000 C CNN
+F 1 "SW5:4" H 3400 2325 50  0000 C CNN
+F 2 "" H 3550 2225 60  0001 C CNN
+F 3 "" H 3550 2225 60  0001 C CNN
+	1    3550 2225
+	1    0    0    -1  
+$EndComp
+$Comp
+L component:DIODE D5:?
+U 1 1 60DCF353
+P 3550 2325
+AR Path="/60DCF353" Ref="D5:?"  Part="1" 
+AR Path="/6032D8F0/60DCF353" Ref="D5:?"  Part="1" 
+F 0 "D5:?" H 3400 2375 40  0000 C CNN
+F 1 "D" H 3550 2375 40  0000 C CNN
+F 2 "" H 3550 2325 60  0001 C CNN
+F 3 "" H 3550 2325 60  0001 C CNN
+	1    3550 2325
+	-1   0    0    1   
+$EndComp
+$Comp
+L component:SWITCH_PUSH SW5:?
+U 1 1 60DCF359
+P 4250 2225
+AR Path="/60DCF359" Ref="SW5:?"  Part="1" 
+AR Path="/6032D8F0/60DCF359" Ref="SW5:3"  Part="1" 
+F 0 "SW5:3" H 4425 2325 50  0000 C CNN
+F 1 "SW5:3" H 4100 2325 50  0000 C CNN
+F 2 "" H 4250 2225 60  0001 C CNN
+F 3 "" H 4250 2225 60  0001 C CNN
+	1    4250 2225
+	1    0    0    -1  
+$EndComp
+$Comp
+L component:DIODE D5:?
+U 1 1 60DCF35F
+P 4250 2325
+AR Path="/60DCF35F" Ref="D5:?"  Part="1" 
+AR Path="/6032D8F0/60DCF35F" Ref="D5:?"  Part="1" 
+F 0 "D5:?" H 4100 2375 40  0000 C CNN
+F 1 "D" H 4250 2375 40  0000 C CNN
+F 2 "" H 4250 2325 60  0001 C CNN
+F 3 "" H 4250 2325 60  0001 C CNN
+	1    4250 2325
+	-1   0    0    1   
+$EndComp
+$Comp
+L component:SWITCH_PUSH SW5:?
+U 1 1 60DCF365
+P 4950 2225
+AR Path="/60DCF365" Ref="SW5:?"  Part="1" 
+AR Path="/6032D8F0/60DCF365" Ref="SW5:2"  Part="1" 
+F 0 "SW5:2" H 5125 2325 50  0000 C CNN
+F 1 "SW5:2" H 4800 2325 50  0000 C CNN
+F 2 "" H 4950 2225 60  0001 C CNN
+F 3 "" H 4950 2225 60  0001 C CNN
+	1    4950 2225
+	1    0    0    -1  
+$EndComp
+$Comp
+L component:DIODE D5:?
+U 1 1 60DCF36B
+P 4950 2325
+AR Path="/60DCF36B" Ref="D5:?"  Part="1" 
+AR Path="/6032D8F0/60DCF36B" Ref="D5:?"  Part="1" 
+F 0 "D5:?" H 4800 2375 40  0000 C CNN
+F 1 "D" H 4950 2375 40  0000 C CNN
+F 2 "" H 4950 2325 60  0001 C CNN
+F 3 "" H 4950 2325 60  0001 C CNN
+	1    4950 2325
+	-1   0    0    1   
+$EndComp
+$Comp
+L component:SWITCH_PUSH SW5:?
+U 1 1 60DCF371
+P 5650 2225
+AR Path="/60DCF371" Ref="SW5:?"  Part="1" 
+AR Path="/6032D8F0/60DCF371" Ref="SW5:1"  Part="1" 
+F 0 "SW5:1" H 5825 2325 50  0000 C CNN
+F 1 "SW5:1" H 5500 2325 50  0000 C CNN
+F 2 "" H 5650 2225 60  0001 C CNN
+F 3 "" H 5650 2225 60  0001 C CNN
+	1    5650 2225
+	1    0    0    -1  
+$EndComp
+$Comp
+L component:DIODE D5:?
+U 1 1 60DCF377
+P 5650 2325
+AR Path="/60DCF377" Ref="D5:?"  Part="1" 
+AR Path="/6032D8F0/60DCF377" Ref="D5:?"  Part="1" 
+F 0 "D5:?" H 5500 2375 40  0000 C CNN
+F 1 "D" H 5650 2375 40  0000 C CNN
+F 2 "" H 5650 2325 60  0001 C CNN
+F 3 "" H 5650 2325 60  0001 C CNN
+	1    5650 2325
+	-1   0    0    1   
+$EndComp
+$Comp
+L component:SWITCH_PUSH SW4:?
+U 1 1 60DCF37D
+P 2150 2875
+AR Path="/60DCF37D" Ref="SW4:?"  Part="1" 
+AR Path="/6032D8F0/60DCF37D" Ref="SW4:6"  Part="1" 
+F 0 "SW4:6" H 2300 2985 50  0000 C CNN
+F 1 "SW4:6" H 1975 2975 50  0000 C CNN
+F 2 "" H 2150 2875 60  0001 C CNN
+F 3 "" H 2150 2875 60  0001 C CNN
+	1    2150 2875
+	1    0    0    -1  
+$EndComp
+$Comp
+L component:DIODE D4:?
+U 1 1 60DCF383
+P 2150 2975
+AR Path="/60DCF383" Ref="D4:?"  Part="1" 
+AR Path="/6032D8F0/60DCF383" Ref="D4:?"  Part="1" 
+F 0 "D4:?" H 2025 3050 40  0000 C CNN
+F 1 "D" H 2150 3025 40  0000 C CNN
+F 2 "" H 2150 2975 60  0001 C CNN
+F 3 "" H 2150 2975 60  0001 C CNN
+	1    2150 2975
+	-1   0    0    1   
+$EndComp
+$Comp
+L component:SWITCH_PUSH SW4:?
+U 1 1 60DCF389
+P 2850 2875
+AR Path="/60DCF389" Ref="SW4:?"  Part="1" 
+AR Path="/6032D8F0/60DCF389" Ref="SW4:5"  Part="1" 
+F 0 "SW4:5" H 3000 3000 50  0000 C CNN
+F 1 "SW4:5" H 2700 3000 50  0000 C CNN
+F 2 "" H 2850 2875 60  0001 C CNN
+F 3 "" H 2850 2875 60  0001 C CNN
+	1    2850 2875
+	1    0    0    -1  
+$EndComp
+$Comp
+L component:DIODE D4:?
+U 1 1 60DCF38F
+P 2850 2975
+AR Path="/60DCF38F" Ref="D4:?"  Part="1" 
+AR Path="/6032D8F0/60DCF38F" Ref="D4:?"  Part="1" 
+F 0 "D4:?" H 2700 3025 40  0000 C CNN
+F 1 "D" H 2850 3025 40  0000 C CNN
+F 2 "" H 2850 2975 60  0001 C CNN
+F 3 "" H 2850 2975 60  0001 C CNN
+	1    2850 2975
+	-1   0    0    1   
+$EndComp
+$Comp
+L component:SWITCH_PUSH SW4:?
+U 1 1 60DCF395
+P 3550 2875
+AR Path="/60DCF395" Ref="SW4:?"  Part="1" 
+AR Path="/6032D8F0/60DCF395" Ref="SW4:4"  Part="1" 
+F 0 "SW4:4" H 3700 3000 50  0000 C CNN
+F 1 "SW4:4" H 3375 3000 50  0000 C CNN
+F 2 "" H 3550 2875 60  0001 C CNN
+F 3 "" H 3550 2875 60  0001 C CNN
+	1    3550 2875
+	1    0    0    -1  
+$EndComp
+$Comp
+L component:DIODE D4:?
+U 1 1 60DCF39B
+P 3550 2975
+AR Path="/60DCF39B" Ref="D4:?"  Part="1" 
+AR Path="/6032D8F0/60DCF39B" Ref="D4:?"  Part="1" 
+F 0 "D4:?" H 3400 3050 40  0000 C CNN
+F 1 "D4:9" H 3550 3025 40  0000 C CNN
+F 2 "" H 3550 2975 60  0001 C CNN
+F 3 "" H 3550 2975 60  0001 C CNN
+	1    3550 2975
+	-1   0    0    1   
+$EndComp
+$Comp
+L component:SWITCH_PUSH SW4:?
+U 1 1 60DCF3A1
+P 4250 2875
+AR Path="/60DCF3A1" Ref="SW4:?"  Part="1" 
+AR Path="/6032D8F0/60DCF3A1" Ref="SW4:3"  Part="1" 
+F 0 "SW4:3" H 4425 3000 50  0000 C CNN
+F 1 "SW4:3" H 4075 3000 50  0000 C CNN
+F 2 "" H 4250 2875 60  0001 C CNN
+F 3 "" H 4250 2875 60  0001 C CNN
+	1    4250 2875
+	1    0    0    -1  
+$EndComp
+$Comp
+L component:DIODE D4:?
+U 1 1 60DCF3A7
+P 4250 2975
+AR Path="/60DCF3A7" Ref="D4:?"  Part="1" 
+AR Path="/6032D8F0/60DCF3A7" Ref="D4:?"  Part="1" 
+F 0 "D4:?" H 4100 3050 40  0000 C CNN
+F 1 "D" H 4250 3025 40  0000 C CNN
+F 2 "" H 4250 2975 60  0001 C CNN
+F 3 "" H 4250 2975 60  0001 C CNN
+	1    4250 2975
+	-1   0    0    1   
+$EndComp
+$Comp
+L component:SWITCH_PUSH SW4:?
+U 1 1 60DCF3AD
+P 4950 2875
+AR Path="/60DCF3AD" Ref="SW4:?"  Part="1" 
+AR Path="/6032D8F0/60DCF3AD" Ref="SW4:2"  Part="1" 
+F 0 "SW4:2" H 5125 3000 50  0000 C CNN
+F 1 "SW4:2" H 4775 3000 50  0000 C CNN
+F 2 "" H 4950 2875 60  0001 C CNN
+F 3 "" H 4950 2875 60  0001 C CNN
+	1    4950 2875
+	1    0    0    -1  
+$EndComp
+$Comp
+L component:DIODE D4:?
+U 1 1 60DCF3B3
+P 4950 2975
+AR Path="/60DCF3B3" Ref="D4:?"  Part="1" 
+AR Path="/6032D8F0/60DCF3B3" Ref="D4:?"  Part="1" 
+F 0 "D4:?" H 4800 3050 40  0000 C CNN
+F 1 "D" H 4950 3025 40  0000 C CNN
+F 2 "" H 4950 2975 60  0001 C CNN
+F 3 "" H 4950 2975 60  0001 C CNN
+	1    4950 2975
+	-1   0    0    1   
+$EndComp
+$Comp
+L component:SWITCH_PUSH SW4:?
+U 1 1 60DCF3B9
+P 5650 2875
+AR Path="/60DCF3B9" Ref="SW4:?"  Part="1" 
+AR Path="/6032D8F0/60DCF3B9" Ref="SW4:1"  Part="1" 
+F 0 "SW4:1" H 5850 3000 50  0000 C CNN
+F 1 "SW4:1" H 5450 3000 50  0000 C CNN
+F 2 "" H 5650 2875 60  0001 C CNN
+F 3 "" H 5650 2875 60  0001 C CNN
+	1    5650 2875
+	1    0    0    -1  
+$EndComp
+$Comp
+L component:DIODE D4:?
+U 1 1 60DCF3BF
+P 5650 2975
+AR Path="/60DCF3BF" Ref="D4:?"  Part="1" 
+AR Path="/6032D8F0/60DCF3BF" Ref="D4:?"  Part="1" 
+F 0 "D4:?" H 5475 3050 40  0000 C CNN
+F 1 "D" H 5650 3025 40  0000 C CNN
+F 2 "" H 5650 2975 60  0001 C CNN
+F 3 "" H 5650 2975 60  0001 C CNN
+	1    5650 2975
+	-1   0    0    1   
+$EndComp
+$Comp
+L component:SWITCH_PUSH SW4:?
+U 1 1 60DCF3C5
+P 6350 2875
+AR Path="/60DCF3C5" Ref="SW4:?"  Part="1" 
+AR Path="/6032D8F0/60DCF3C5" Ref="SW4:0"  Part="1" 
+F 0 "SW4:0" H 6550 3000 50  0000 C CNN
+F 1 "SW4:0" H 6175 3000 50  0000 C CNN
+F 2 "" H 6350 2875 60  0001 C CNN
+F 3 "" H 6350 2875 60  0001 C CNN
+	1    6350 2875
+	1    0    0    -1  
+$EndComp
+$Comp
+L component:DIODE D4:?
+U 1 1 60DCF3CB
+P 6350 2975
+AR Path="/60DCF3CB" Ref="D4:?"  Part="1" 
+AR Path="/6032D8F0/60DCF3CB" Ref="D4:?"  Part="1" 
+F 0 "D4:?" H 6200 3050 40  0000 C CNN
+F 1 "D" H 6350 3025 40  0000 C CNN
+F 2 "" H 6350 2975 60  0001 C CNN
+F 3 "" H 6350 2975 60  0001 C CNN
+	1    6350 2975
+	-1   0    0    1   
+$EndComp
+$Comp
+L component:DIODE D0:?
+U 1 1 60DCF3D1
+P 5650 5575
+AR Path="/60DCF3D1" Ref="D0:?"  Part="1" 
+AR Path="/6032D8F0/60DCF3D1" Ref="D0:?"  Part="1" 
+F 0 "D0:?" H 5500 5625 40  0000 C CNN
+F 1 "D" H 5650 5625 40  0000 C CNN
+F 2 "" H 5650 5575 60  0001 C CNN
+F 3 "" H 5650 5575 60  0001 C CNN
+	1    5650 5575
+	-1   0    0    1   
+$EndComp
+$Comp
+L component:SWITCH_PUSH SW0:?
+U 1 1 60DCF3D7
+P 5650 5475
+AR Path="/60DCF3D7" Ref="SW0:?"  Part="1" 
+AR Path="/6032D8F0/60DCF3D7" Ref="SW0:0"  Part="1" 
+F 0 "SW0:0" H 5825 5575 50  0000 C CNN
+F 1 "SW0:0" H 5475 5575 50  0000 C CNN
+F 2 "" H 5650 5475 60  0001 C CNN
+F 3 "" H 5650 5475 60  0001 C CNN
+	1    5650 5475
+	1    0    0    -1  
+$EndComp
+$Comp
+L component:DIODE D0:?
+U 1 1 60DCF3DD
+P 4950 5575
+AR Path="/60DCF3DD" Ref="D0:?"  Part="1" 
+AR Path="/6032D8F0/60DCF3DD" Ref="D0:?"  Part="1" 
+F 0 "D0:?" H 4800 5625 40  0000 C CNN
+F 1 "D" H 4950 5625 40  0000 C CNN
+F 2 "" H 4950 5575 60  0001 C CNN
+F 3 "" H 4950 5575 60  0001 C CNN
+	1    4950 5575
+	-1   0    0    1   
+$EndComp
+$Comp
+L component:SWITCH_PUSH SW0:?
+U 1 1 60DCF3E3
+P 4950 5475
+AR Path="/60DCF3E3" Ref="SW0:?"  Part="1" 
+AR Path="/6032D8F0/60DCF3E3" Ref="SW0:2"  Part="1" 
+F 0 "SW0:2" H 5125 5575 50  0000 C CNN
+F 1 "SW0:2" H 4775 5575 50  0000 C CNN
+F 2 "" H 4950 5475 60  0001 C CNN
+F 3 "" H 4950 5475 60  0001 C CNN
+	1    4950 5475
+	1    0    0    -1  
+$EndComp
+$Comp
+L component:DIODE D0:?
+U 1 1 60DCF3E9
+P 4250 5575
+AR Path="/60DCF3E9" Ref="D0:?"  Part="1" 
+AR Path="/6032D8F0/60DCF3E9" Ref="D0:?"  Part="1" 
+F 0 "D0:?" H 4100 5625 40  0000 C CNN
+F 1 "D" H 4250 5625 40  0000 C CNN
+F 2 "" H 4250 5575 60  0001 C CNN
+F 3 "" H 4250 5575 60  0001 C CNN
+	1    4250 5575
+	-1   0    0    1   
+$EndComp
+$Comp
+L component:SWITCH_PUSH SW0:?
+U 1 1 60DCF3EF
+P 4250 5475
+AR Path="/60DCF3EF" Ref="SW0:?"  Part="1" 
+AR Path="/6032D8F0/60DCF3EF" Ref="SW0:3"  Part="1" 
+F 0 "SW0:3" H 4425 5575 50  0000 C CNN
+F 1 "SW0:3" H 4075 5575 50  0000 C CNN
+F 2 "" H 4250 5475 60  0001 C CNN
+F 3 "" H 4250 5475 60  0001 C CNN
+	1    4250 5475
+	1    0    0    -1  
+$EndComp
+$Comp
+L component:DIODE D0:?
+U 1 1 60DCF3F5
+P 3550 5575
+AR Path="/60DCF3F5" Ref="D0:?"  Part="1" 
+AR Path="/6032D8F0/60DCF3F5" Ref="D0:?"  Part="1" 
+F 0 "D0:?" H 3400 5625 40  0000 C CNN
+F 1 "D" H 3550 5625 40  0000 C CNN
+F 2 "" H 3550 5575 60  0001 C CNN
+F 3 "" H 3550 5575 60  0001 C CNN
+	1    3550 5575
+	-1   0    0    1   
+$EndComp
+$Comp
+L component:SWITCH_PUSH SW0:?
+U 1 1 60DCF3FB
+P 3550 5475
+AR Path="/60DCF3FB" Ref="SW0:?"  Part="1" 
+AR Path="/6032D8F0/60DCF3FB" Ref="SW0:4"  Part="1" 
+F 0 "SW0:4" H 3700 5575 50  0000 C CNN
+F 1 "SW0:4" H 3375 5575 50  0000 C CNN
+F 2 "" H 3550 5475 60  0001 C CNN
+F 3 "" H 3550 5475 60  0001 C CNN
+	1    3550 5475
+	1    0    0    -1  
+$EndComp
+$Comp
+L component:DIODE D0:?
+U 1 1 60DCF401
+P 2850 5575
+AR Path="/60DCF401" Ref="D0:?"  Part="1" 
+AR Path="/6032D8F0/60DCF401" Ref="D0:?"  Part="1" 
+F 0 "D0:?" H 2700 5625 40  0000 C CNN
+F 1 "D" H 2850 5625 40  0000 C CNN
+F 2 "" H 2850 5575 60  0001 C CNN
+F 3 "" H 2850 5575 60  0001 C CNN
+	1    2850 5575
+	-1   0    0    1   
+$EndComp
+$Comp
+L component:SWITCH_PUSH SW0:?
+U 1 1 60DCF407
+P 2850 5475
+AR Path="/60DCF407" Ref="SW0:?"  Part="1" 
+AR Path="/6032D8F0/60DCF407" Ref="SW0:5"  Part="1" 
+F 0 "SW0:5" H 3000 5575 50  0000 C CNN
+F 1 "SW0:5" H 2675 5575 50  0000 C CNN
+F 2 "" H 2850 5475 60  0001 C CNN
+F 3 "" H 2850 5475 60  0001 C CNN
+	1    2850 5475
+	1    0    0    -1  
+$EndComp
+$Comp
+L component:DIODE D0:?
+U 1 1 60DCF40D
+P 2150 5575
+AR Path="/60DCF40D" Ref="D0:?"  Part="1" 
+AR Path="/6032D8F0/60DCF40D" Ref="D0:?"  Part="1" 
+F 0 "D0:?" H 2000 5625 40  0000 C CNN
+F 1 "D" H 2150 5625 40  0000 C CNN
+F 2 "" H 2150 5575 60  0001 C CNN
+F 3 "" H 2150 5575 60  0001 C CNN
+	1    2150 5575
+	-1   0    0    1   
+$EndComp
+$Comp
+L component:SWITCH_PUSH SW0:?
+U 1 1 60DCF413
+P 2150 5475
+AR Path="/60DCF413" Ref="SW0:?"  Part="1" 
+AR Path="/6032D8F0/60DCF413" Ref="SW0:6"  Part="1" 
+F 0 "SW0:6" H 2300 5585 50  0000 C CNN
+F 1 "SW0:6" H 2000 5575 50  0000 C CNN
+F 2 "" H 2150 5475 60  0001 C CNN
+F 3 "" H 2150 5475 60  0001 C CNN
+	1    2150 5475
+	1    0    0    -1  
+$EndComp
+$Comp
+L component:DIODE D1:?
+U 1 1 60DCF419
+P 5650 4925
+AR Path="/60DCF419" Ref="D1:?"  Part="1" 
+AR Path="/6032D8F0/60DCF419" Ref="D1:?"  Part="1" 
+F 0 "D1:?" H 5500 4975 40  0000 C CNN
+F 1 "D" H 5650 4975 40  0000 C CNN
+F 2 "" H 5650 4925 60  0001 C CNN
+F 3 "" H 5650 4925 60  0001 C CNN
+	1    5650 4925
+	-1   0    0    1   
+$EndComp
+$Comp
+L component:SWITCH_PUSH SW1:?
+U 1 1 60DCF41F
+P 5650 4825
+AR Path="/60DCF41F" Ref="SW1:?"  Part="1" 
+AR Path="/6032D8F0/60DCF41F" Ref="SW1:1"  Part="1" 
+F 0 "SW1:1" H 5825 4925 50  0000 C CNN
+F 1 "SW1:1" H 5475 4925 50  0000 C CNN
+F 2 "" H 5650 4825 60  0001 C CNN
+F 3 "" H 5650 4825 60  0001 C CNN
+	1    5650 4825
+	1    0    0    -1  
+$EndComp
+$Comp
+L component:DIODE D1:?
+U 1 1 60DCF425
+P 4950 4925
+AR Path="/60DCF425" Ref="D1:?"  Part="1" 
+AR Path="/6032D8F0/60DCF425" Ref="D1:?"  Part="1" 
+F 0 "D1:?" H 4800 4975 40  0000 C CNN
+F 1 "D" H 4950 4975 40  0000 C CNN
+F 2 "" H 4950 4925 60  0001 C CNN
+F 3 "" H 4950 4925 60  0001 C CNN
+	1    4950 4925
+	-1   0    0    1   
+$EndComp
+$Comp
+L component:SWITCH_PUSH SW1:?
+U 1 1 60DCF42B
+P 4950 4825
+AR Path="/60DCF42B" Ref="SW1:?"  Part="1" 
+AR Path="/6032D8F0/60DCF42B" Ref="SW1:2"  Part="1" 
+F 0 "SW1:2" H 5125 4925 50  0000 C CNN
+F 1 "SW1:2" H 4775 4925 50  0000 C CNN
+F 2 "" H 4950 4825 60  0001 C CNN
+F 3 "" H 4950 4825 60  0001 C CNN
+	1    4950 4825
+	1    0    0    -1  
+$EndComp
+$Comp
+L component:DIODE D1:?
+U 1 1 60DCF431
+P 4250 4925
+AR Path="/60DCF431" Ref="D1:?"  Part="1" 
+AR Path="/6032D8F0/60DCF431" Ref="D1:?"  Part="1" 
+F 0 "D1:?" H 4100 4975 40  0000 C CNN
+F 1 "D" H 4250 4975 40  0000 C CNN
+F 2 "" H 4250 4925 60  0001 C CNN
+F 3 "" H 4250 4925 60  0001 C CNN
+	1    4250 4925
+	-1   0    0    1   
+$EndComp
+$Comp
+L component:SWITCH_PUSH SW1:?
+U 1 1 60DCF437
+P 4250 4825
+AR Path="/60DCF437" Ref="SW1:?"  Part="1" 
+AR Path="/6032D8F0/60DCF437" Ref="SW1:3"  Part="1" 
+F 0 "SW1:3" H 4425 4925 50  0000 C CNN
+F 1 "SW1:3" H 4075 4925 50  0000 C CNN
+F 2 "" H 4250 4825 60  0001 C CNN
+F 3 "" H 4250 4825 60  0001 C CNN
+	1    4250 4825
+	1    0    0    -1  
+$EndComp
+$Comp
+L component:DIODE D1:?
+U 1 1 60DCF43D
+P 3550 4925
+AR Path="/60DCF43D" Ref="D1:?"  Part="1" 
+AR Path="/6032D8F0/60DCF43D" Ref="D1:?"  Part="1" 
+F 0 "D1:?" H 3400 4975 40  0000 C CNN
+F 1 "D" H 3550 4975 40  0000 C CNN
+F 2 "" H 3550 4925 60  0001 C CNN
+F 3 "" H 3550 4925 60  0001 C CNN
+	1    3550 4925
+	-1   0    0    1   
+$EndComp
+$Comp
+L component:SWITCH_PUSH SW1:?
+U 1 1 60DCF443
+P 3550 4825
+AR Path="/60DCF443" Ref="SW1:?"  Part="1" 
+AR Path="/6032D8F0/60DCF443" Ref="SW1:4"  Part="1" 
+F 0 "SW1:4" H 3700 4935 50  0000 C CNN
+F 1 "SW1:4" H 3375 4925 50  0000 C CNN
+F 2 "" H 3550 4825 60  0001 C CNN
+F 3 "" H 3550 4825 60  0001 C CNN
+	1    3550 4825
+	1    0    0    -1  
+$EndComp
+$Comp
+L component:DIODE D2:?
+U 1 1 60DCF449
+P 6350 4275
+AR Path="/60DCF449" Ref="D2:?"  Part="1" 
+AR Path="/6032D8F0/60DCF449" Ref="D2:?"  Part="1" 
+F 0 "D2:?" H 6200 4325 40  0000 C CNN
+F 1 "D" H 6350 4325 40  0000 C CNN
+F 2 "" H 6350 4275 60  0001 C CNN
+F 3 "" H 6350 4275 60  0001 C CNN
+	1    6350 4275
+	-1   0    0    1   
+$EndComp
+$Comp
+L component:SWITCH_PUSH SW2:?
+U 1 1 60DCF44F
+P 6350 4175
+AR Path="/60DCF44F" Ref="SW2:?"  Part="1" 
+AR Path="/6032D8F0/60DCF44F" Ref="SW2:0"  Part="1" 
+F 0 "SW2:0" H 6525 4275 50  0000 C CNN
+F 1 "SW2:0" H 6175 4275 50  0000 C CNN
+F 2 "" H 6350 4175 60  0001 C CNN
+F 3 "" H 6350 4175 60  0001 C CNN
+	1    6350 4175
+	1    0    0    -1  
+$EndComp
+$Comp
+L component:DIODE D2:?
+U 1 1 60DCF455
+P 5650 4275
+AR Path="/60DCF455" Ref="D2:?"  Part="1" 
+AR Path="/6032D8F0/60DCF455" Ref="D2:?"  Part="1" 
+F 0 "D2:?" H 5500 4325 40  0000 C CNN
+F 1 "D" H 5650 4325 40  0000 C CNN
+F 2 "" H 5650 4275 60  0001 C CNN
+F 3 "" H 5650 4275 60  0001 C CNN
+	1    5650 4275
+	-1   0    0    1   
+$EndComp
+$Comp
+L component:SWITCH_PUSH SW2:?
+U 1 1 60DCF45B
+P 5650 4175
+AR Path="/60DCF45B" Ref="SW2:?"  Part="1" 
+AR Path="/6032D8F0/60DCF45B" Ref="SW2:1"  Part="1" 
+F 0 "SW2:1" H 5825 4275 50  0000 C CNN
+F 1 "SW2:1" H 5475 4275 50  0000 C CNN
+F 2 "" H 5650 4175 60  0001 C CNN
+F 3 "" H 5650 4175 60  0001 C CNN
+	1    5650 4175
+	1    0    0    -1  
+$EndComp
+$Comp
+L component:DIODE D2:?
+U 1 1 60DCF461
+P 4950 4275
+AR Path="/60DCF461" Ref="D2:?"  Part="1" 
+AR Path="/6032D8F0/60DCF461" Ref="D2:?"  Part="1" 
+F 0 "D2:?" H 4800 4325 40  0000 C CNN
+F 1 "D" H 4950 4325 40  0000 C CNN
+F 2 "" H 4950 4275 60  0001 C CNN
+F 3 "" H 4950 4275 60  0001 C CNN
+	1    4950 4275
+	-1   0    0    1   
+$EndComp
+$Comp
+L component:SWITCH_PUSH SW2:?
+U 1 1 60DCF467
+P 4950 4175
+AR Path="/60DCF467" Ref="SW2:?"  Part="1" 
+AR Path="/6032D8F0/60DCF467" Ref="SW2:2"  Part="1" 
+F 0 "SW2:2" H 5100 4285 50  0000 C CNN
+F 1 "SW2:2" H 4775 4275 50  0000 C CNN
+F 2 "" H 4950 4175 60  0001 C CNN
+F 3 "" H 4950 4175 60  0001 C CNN
+	1    4950 4175
+	1    0    0    -1  
+$EndComp
+$Comp
+L component:DIODE D2:?
+U 1 1 60DCF46D
+P 4250 4275
+AR Path="/60DCF46D" Ref="D2:?"  Part="1" 
+AR Path="/6032D8F0/60DCF46D" Ref="D2:?"  Part="1" 
+F 0 "D2:?" H 4100 4325 40  0000 C CNN
+F 1 "D" H 4250 4325 40  0000 C CNN
+F 2 "" H 4250 4275 60  0001 C CNN
+F 3 "" H 4250 4275 60  0001 C CNN
+	1    4250 4275
+	-1   0    0    1   
+$EndComp
+$Comp
+L component:SWITCH_PUSH SW2:?
+U 1 1 60DCF473
+P 4250 4175
+AR Path="/60DCF473" Ref="SW2:?"  Part="1" 
+AR Path="/6032D8F0/60DCF473" Ref="SW2:3"  Part="1" 
+F 0 "SW2:3" H 4400 4285 50  0000 C CNN
+F 1 "SW2:3" H 4100 4300 50  0000 C CNN
+F 2 "" H 4250 4175 60  0001 C CNN
+F 3 "" H 4250 4175 60  0001 C CNN
+	1    4250 4175
+	1    0    0    -1  
+$EndComp
+$Comp
+L component:DIODE D2:?
+U 1 1 60DCF479
+P 3550 4275
+AR Path="/60DCF479" Ref="D2:?"  Part="1" 
+AR Path="/6032D8F0/60DCF479" Ref="D2:?"  Part="1" 
+F 0 "D2:?" H 3400 4325 40  0000 C CNN
+F 1 "D" H 3550 4325 40  0000 C CNN
+F 2 "" H 3550 4275 60  0001 C CNN
+F 3 "" H 3550 4275 60  0001 C CNN
+	1    3550 4275
+	-1   0    0    1   
+$EndComp
+$Comp
+L component:SWITCH_PUSH SW2:?
+U 1 1 60DCF47F
+P 3550 4175
+AR Path="/60DCF47F" Ref="SW2:?"  Part="1" 
+AR Path="/6032D8F0/60DCF47F" Ref="SW2:4"  Part="1" 
+F 0 "SW2:4" H 3700 4285 50  0000 C CNN
+F 1 "SW2:4" H 3400 4275 50  0000 C CNN
+F 2 "" H 3550 4175 60  0001 C CNN
+F 3 "" H 3550 4175 60  0001 C CNN
+	1    3550 4175
+	1    0    0    -1  
+$EndComp
+$Comp
+L component:DIODE D2:?
+U 1 1 60DCF485
+P 2850 4275
+AR Path="/60DCF485" Ref="D2:?"  Part="1" 
+AR Path="/6032D8F0/60DCF485" Ref="D2:?"  Part="1" 
+F 0 "D2:?" H 2700 4325 40  0000 C CNN
+F 1 "D" H 2850 4325 40  0000 C CNN
+F 2 "" H 2850 4275 60  0001 C CNN
+F 3 "" H 2850 4275 60  0001 C CNN
+	1    2850 4275
+	-1   0    0    1   
+$EndComp
+$Comp
+L component:SWITCH_PUSH SW2:?
+U 1 1 60DCF48B
+P 2850 4175
+AR Path="/60DCF48B" Ref="SW2:?"  Part="1" 
+AR Path="/6032D8F0/60DCF48B" Ref="SW2:5"  Part="1" 
+F 0 "SW2:5" H 3000 4285 50  0000 C CNN
+F 1 "SW2:5" H 2675 4275 50  0000 C CNN
+F 2 "" H 2850 4175 60  0001 C CNN
+F 3 "" H 2850 4175 60  0001 C CNN
+	1    2850 4175
+	1    0    0    -1  
+$EndComp
+$Comp
+L component:DIODE D2:?
+U 1 1 60DCF491
+P 2150 4275
+AR Path="/60DCF491" Ref="D2:?"  Part="1" 
+AR Path="/6032D8F0/60DCF491" Ref="D2:?"  Part="1" 
+F 0 "D2:?" H 2025 4325 40  0000 C CNN
+F 1 "D" H 2150 4325 40  0000 C CNN
+F 2 "" H 2150 4275 60  0001 C CNN
+F 3 "" H 2150 4275 60  0001 C CNN
+	1    2150 4275
+	-1   0    0    1   
+$EndComp
+$Comp
+L component:SWITCH_PUSH SW2:?
+U 1 1 60DCF497
+P 2150 4175
+AR Path="/60DCF497" Ref="SW2:?"  Part="1" 
+AR Path="/6032D8F0/60DCF497" Ref="SW2:6"  Part="1" 
+F 0 "SW2:6" H 2300 4285 50  0000 C CNN
+F 1 "SW2:6" H 1975 4275 50  0000 C CNN
+F 2 "" H 2150 4175 60  0001 C CNN
+F 3 "" H 2150 4175 60  0001 C CNN
+	1    2150 4175
+	1    0    0    -1  
+$EndComp
+$Comp
+L component:DIODE D3:?
+U 1 1 60DCF49D
+P 6350 3625
+AR Path="/60DCF49D" Ref="D3:?"  Part="1" 
+AR Path="/6032D8F0/60DCF49D" Ref="D3:?"  Part="1" 
+F 0 "D3:?" H 6200 3675 40  0000 C CNN
+F 1 "D" H 6350 3675 40  0000 C CNN
+F 2 "" H 6350 3625 60  0001 C CNN
+F 3 "" H 6350 3625 60  0001 C CNN
+	1    6350 3625
+	-1   0    0    1   
+$EndComp
+$Comp
+L component:SWITCH_PUSH SW3:?
+U 1 1 60DCF4A3
+P 6350 3525
+AR Path="/60DCF4A3" Ref="SW3:?"  Part="1" 
+AR Path="/6032D8F0/60DCF4A3" Ref="SW3:0"  Part="1" 
+F 0 "SW3:0" H 6500 3635 50  0000 C CNN
+F 1 "SW3:0" H 6175 3625 50  0000 C CNN
+F 2 "" H 6350 3525 60  0001 C CNN
+F 3 "" H 6350 3525 60  0001 C CNN
+	1    6350 3525
+	1    0    0    -1  
+$EndComp
+$Comp
+L component:DIODE D3:?
+U 1 1 60DCF4A9
+P 5650 3625
+AR Path="/60DCF4A9" Ref="D3:?"  Part="1" 
+AR Path="/6032D8F0/60DCF4A9" Ref="D3:?"  Part="1" 
+F 0 "D3:?" H 5500 3675 40  0000 C CNN
+F 1 "D" H 5650 3675 40  0000 C CNN
+F 2 "" H 5650 3625 60  0001 C CNN
+F 3 "" H 5650 3625 60  0001 C CNN
+	1    5650 3625
+	-1   0    0    1   
+$EndComp
+$Comp
+L component:SWITCH_PUSH SW3:?
+U 1 1 60DCF4AF
+P 5650 3525
+AR Path="/60DCF4AF" Ref="SW3:?"  Part="1" 
+AR Path="/6032D8F0/60DCF4AF" Ref="SW3:1"  Part="1" 
+F 0 "SW3:1" H 5800 3635 50  0000 C CNN
+F 1 "SW3:1" H 5475 3625 50  0000 C CNN
+F 2 "" H 5650 3525 60  0001 C CNN
+F 3 "" H 5650 3525 60  0001 C CNN
+	1    5650 3525
+	1    0    0    -1  
+$EndComp
+$Comp
+L component:SWITCH_PUSH SW3:?
+U 1 1 60DCF4B5
+P 4950 3525
+AR Path="/60DCF4B5" Ref="SW3:?"  Part="1" 
+AR Path="/6032D8F0/60DCF4B5" Ref="SW3:2"  Part="1" 
+F 0 "SW3:2" H 5100 3635 50  0000 C CNN
+F 1 "SW3:2" H 4775 3625 50  0000 C CNN
+F 2 "" H 4950 3525 60  0001 C CNN
+F 3 "" H 4950 3525 60  0001 C CNN
+	1    4950 3525
+	1    0    0    -1  
+$EndComp
+$Comp
+L component:DIODE D3:?
+U 1 1 60DCF4BB
+P 4250 3625
+AR Path="/60DCF4BB" Ref="D3:?"  Part="1" 
+AR Path="/6032D8F0/60DCF4BB" Ref="D3:?"  Part="1" 
+F 0 "D3:?" H 4100 3675 40  0000 C CNN
+F 1 "D" H 4250 3675 40  0000 C CNN
+F 2 "" H 4250 3625 60  0001 C CNN
+F 3 "" H 4250 3625 60  0001 C CNN
+	1    4250 3625
+	-1   0    0    1   
+$EndComp
+$Comp
+L component:SWITCH_PUSH SW3:?
+U 1 1 60DCF4C1
+P 4250 3525
+AR Path="/60DCF4C1" Ref="SW3:?"  Part="1" 
+AR Path="/6032D8F0/60DCF4C1" Ref="SW3:3"  Part="1" 
+F 0 "SW3:3" H 4400 3635 50  0000 C CNN
+F 1 "SW3:3" H 4075 3625 50  0000 C CNN
+F 2 "" H 4250 3525 60  0001 C CNN
+F 3 "" H 4250 3525 60  0001 C CNN
+	1    4250 3525
+	1    0    0    -1  
+$EndComp
+$Comp
+L component:SWITCH_PUSH SW3:?
+U 1 1 60DCF4C7
+P 3550 3525
+AR Path="/60DCF4C7" Ref="SW3:?"  Part="1" 
+AR Path="/6032D8F0/60DCF4C7" Ref="SW3:4"  Part="1" 
+F 0 "SW3:4" H 3700 3635 50  0000 C CNN
+F 1 "SW3:4" H 3375 3625 50  0000 C CNN
+F 2 "" H 3550 3525 60  0001 C CNN
+F 3 "" H 3550 3525 60  0001 C CNN
+	1    3550 3525
+	1    0    0    -1  
+$EndComp
+$Comp
+L component:DIODE D3:?
+U 1 1 60DCF4CD
+P 2850 3625
+AR Path="/60DCF4CD" Ref="D3:?"  Part="1" 
+AR Path="/6032D8F0/60DCF4CD" Ref="D3:?"  Part="1" 
+F 0 "D3:?" H 2700 3700 40  0000 C CNN
+F 1 "D" H 2850 3675 40  0000 C CNN
+F 2 "" H 2850 3625 60  0001 C CNN
+F 3 "" H 2850 3625 60  0001 C CNN
+	1    2850 3625
+	-1   0    0    1   
+$EndComp
+$Comp
+L component:SWITCH_PUSH SW3:?
+U 1 1 60DCF4D3
+P 2850 3525
+AR Path="/60DCF4D3" Ref="SW3:?"  Part="1" 
+AR Path="/6032D8F0/60DCF4D3" Ref="SW3:5"  Part="1" 
+F 0 "SW3:5" H 3000 3635 50  0000 C CNN
+F 1 "SW3:5" H 2675 3625 50  0000 C CNN
+F 2 "" H 2850 3525 60  0001 C CNN
+F 3 "" H 2850 3525 60  0001 C CNN
+	1    2850 3525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 2325 1950 2975
+Connection ~ 1950 2975
+Wire Wire Line
+	2650 2325 2650 2975
+Connection ~ 2650 2975
+Wire Wire Line
+	3350 2325 3350 2975
+Connection ~ 3350 2975
+Wire Wire Line
+	4050 2325 4050 2975
+Connection ~ 4050 2975
+Wire Wire Line
+	4750 2325 4750 2975
+Connection ~ 4750 2975
+Wire Wire Line
+	5450 2325 5450 2975
+Connection ~ 5450 2975
+Wire Wire Line
+	6150 2325 6150 2975
+Connection ~ 6150 2975
+$Comp
+L component:DIODE D3:?
+U 1 1 60DCF4E7
+P 3550 3625
+AR Path="/60DCF4E7" Ref="D3:?"  Part="1" 
+AR Path="/6032D8F0/60DCF4E7" Ref="D3:?"  Part="1" 
+F 0 "D3:?" H 3400 3675 40  0000 C CNN
+F 1 "D" H 3550 3675 40  0000 C CNN
+F 2 "" H 3550 3625 60  0001 C CNN
+F 3 "" H 3550 3625 60  0001 C CNN
+	1    3550 3625
+	-1   0    0    1   
+$EndComp
+$Comp
+L component:DIODE D3:?
+U 1 1 60DCF4ED
+P 4950 3625
+AR Path="/60DCF4ED" Ref="D3:?"  Part="1" 
+AR Path="/6032D8F0/60DCF4ED" Ref="D3:?"  Part="1" 
+F 0 "D3:?" H 4800 3675 40  0000 C CNN
+F 1 "D" H 4950 3675 40  0000 C CNN
+F 2 "" H 4950 3625 60  0001 C CNN
+F 3 "" H 4950 3625 60  0001 C CNN
+	1    4950 3625
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2650 2975 2650 3625
+Connection ~ 2650 3625
+Wire Wire Line
+	3350 2975 3350 3625
+Connection ~ 3350 3625
+Wire Wire Line
+	4050 2975 4050 3625
+Connection ~ 4050 3625
+Wire Wire Line
+	4750 2975 4750 3625
+Wire Wire Line
+	5450 2975 5450 3625
+Wire Wire Line
+	6150 2975 6150 3625
+Connection ~ 4750 3625
+Connection ~ 5450 3625
+Connection ~ 6150 3625
+Wire Wire Line
+	1950 2975 1950 4275
+Connection ~ 1950 4275
+Wire Wire Line
+	1950 4275 1950 4975
+Wire Wire Line
+	2650 3625 2650 4275
+Connection ~ 2650 4275
+Wire Wire Line
+	2650 4275 2650 4975
+Wire Wire Line
+	3350 3625 3350 4275
+Connection ~ 3350 4275
+Wire Wire Line
+	4050 3625 4050 4275
+Connection ~ 4050 4275
+Wire Wire Line
+	4750 3625 4750 4275
+Connection ~ 4750 4275
+Wire Wire Line
+	5450 3625 5450 4275
+Connection ~ 5450 4275
+Wire Wire Line
+	6150 3625 6150 4275
+Connection ~ 6150 4275
+Wire Wire Line
+	3350 4275 3350 4925
+Connection ~ 3350 4925
+Wire Wire Line
+	4050 4275 4050 4925
+Connection ~ 4050 4925
+Wire Wire Line
+	4050 4925 4050 5575
+Wire Wire Line
+	4750 4275 4750 4925
+Connection ~ 4750 4925
+Wire Wire Line
+	4750 4925 4750 5575
+Wire Wire Line
+	5450 4275 5450 4925
+Connection ~ 5450 4925
+Wire Wire Line
+	6150 4275 6150 4925
+$Comp
+L component:SWITCH_PUSH SW1:?
+U 1 1 60DCF51A
+P 6350 4825
+AR Path="/60DCF51A" Ref="SW1:?"  Part="1" 
+AR Path="/6032D8F0/60DCF51A" Ref="SW1:0"  Part="1" 
+F 0 "SW1:0" H 6500 4935 50  0000 C CNN
+F 1 "SW1:0" H 6150 4925 50  0000 C CNN
+F 2 "" H 6350 4825 60  0001 C CNN
+F 3 "" H 6350 4825 60  0001 C CNN
+	1    6350 4825
+	1    0    0    -1  
+$EndComp
+$Comp
+L component:DIODE D1:?
+U 1 1 60DCF520
+P 6350 4925
+AR Path="/60DCF520" Ref="D1:?"  Part="1" 
+AR Path="/6032D8F0/60DCF520" Ref="D1:?"  Part="1" 
+F 0 "D1:?" H 6175 4975 40  0000 C CNN
+F 1 "D" H 6350 4975 40  0000 C CNN
+F 2 "" H 6350 4925 60  0001 C CNN
+F 3 "" H 6350 4925 60  0001 C CNN
+	1    6350 4925
+	-1   0    0    1   
+$EndComp
+Connection ~ 6150 4925
+Wire Wire Line
+	6150 4925 6150 6025
+Wire Wire Line
+	1950 4975 1950 5575
+Connection ~ 1950 5575
+Wire Wire Line
+	1950 5575 1950 6025
+Wire Wire Line
+	2650 4975 2650 5575
+Connection ~ 2650 5575
+Wire Wire Line
+	2650 5575 2650 6025
+Wire Wire Line
+	3350 4925 3350 5575
+Connection ~ 3350 5575
+Wire Wire Line
+	3350 5575 3350 6025
+Wire Wire Line
+	5450 4925 5450 5575
+Connection ~ 5450 5575
+Wire Wire Line
+	5450 5575 5450 6025
+$Comp
+L component:SWITCH_PUSH SX1:?
+U 1 1 60DCF240
+P 2150 4825
+AR Path="/60DCF240" Ref="SX1:?"  Part="1" 
+AR Path="/6032D8F0/60DCF240" Ref="SX1:6"  Part="1" 
+F 0 "SX1:6" H 2300 4935 50  0000 C CNN
+F 1 "SX1:6" H 2150 4745 50  0000 C CNN
+F 2 "" H 2150 4825 60  0001 C CNN
+F 3 "" H 2150 4825 60  0001 C CNN
+	1    2150 4825
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
