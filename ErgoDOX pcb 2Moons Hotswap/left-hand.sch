@@ -79,7 +79,7 @@ AR Path="/6032D8F0/60333F06" Ref="U1"  Part="1"
 F 0 "U1" H 8450 1290 50  0000 C CNN
 F 1 "MCP23018-E_SS" H 8450 1199 50  0000 C CNN
 F 2 "eec:Microchip-MCP23018-E_SS-Level_A" H 7800 1425 50  0001 L CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22103a.pdf" H 7800 1525 50  0001 L CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1806081841_Microchip-Tech-MCP23018-E-SS_C153287.pdf" H 7800 1525 50  0001 L CNN
 F 4 "MO-150-AG" H 7800 1625 50  0001 L CNN "Code  JEDEC"
 F 5 "Manufacturer URL" H 7800 1725 50  0001 L CNN "Component Link 1 Description"
 F 6 "http://www.microchip.com/" H 7800 1825 50  0001 L CNN "Component Link 1 URL"
@@ -96,6 +96,9 @@ F 16 "SSOP-SS24" H 7800 2825 50  0001 L CNN "package"
 F 17 "1331939366" H 7800 2925 50  0001 L CNN "release date"
 F 18 "A32BB52E-C1AB-4573-99EA-BF3448FBDA05" H 7800 3025 50  0001 L CNN "vault revision"
 F 19 "yes" H 7800 3125 50  0001 L CNN "imported"
+F 20 "C153287" H 7800 1025 50  0001 C CNN "LCSC Part#"
+F 21 "Microchip Tech" H 7800 1025 50  0001 C CNN "Mfr"
+F 22 "MCP23018-E/SS" H 7800 1025 50  0001 C CNN "Part#"
 	1    7800 1025
 	1    0    0    -1  
 $EndComp
@@ -177,7 +180,10 @@ AR Path="/6032D8F0/60DCF252" Ref="D1:6"  Part="1"
 F 0 "D1:6" H 2000 5025 40  0000 C CNN
 F 1 "D" H 2150 5025 40  0000 C CNN
 F 2 "kbd:D3_SMD_v2_copy" H 2150 4975 60  0001 C CNN
-F 3 "" H 2150 4975 60  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Semtech-1N4148W_C81598.pdf" H 2150 4975 60  0001 C CNN
+F 4 "C81598" H 2150 4975 50  0001 C CNN "LCSC Part#"
+F 5 "Semtech" H 2150 4975 50  0001 C CNN "Mfr"
+F 6 "1N4148W" H 2150 4975 50  0001 C CNN "Part#"
 	1    2150 4975
 	-1   0    0    1   
 $EndComp
@@ -573,7 +579,10 @@ AR Path="/6032D8F0/60DCF339" Ref="D5:6"  Part="1"
 F 0 "D5:6" H 2000 2375 40  0000 C CNN
 F 1 "D" H 2150 2375 40  0000 C CNN
 F 2 "kbd:D3_SMD_v2_copy" H 2150 2325 60  0001 C CNN
-F 3 "" H 2150 2325 60  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Semtech-1N4148W_C81598.pdf" H 2150 2325 60  0001 C CNN
+F 4 "C81598" H 2150 2325 50  0001 C CNN "LCSC Part#"
+F 5 "Semtech" H 2150 2325 50  0001 C CNN "Mfr"
+F 6 "1N4148W" H 2150 2325 50  0001 C CNN "Part#"
 	1    2150 2325
 	-1   0    0    1   
 $EndComp
@@ -603,7 +612,10 @@ AR Path="/6032D8F0/60DCF347" Ref="D5:5"  Part="1"
 F 0 "D5:5" H 2700 2375 40  0000 C CNN
 F 1 "D" H 2850 2375 40  0000 C CNN
 F 2 "kbd:D3_SMD_v2_copy" H 2850 2325 60  0001 C CNN
-F 3 "" H 2850 2325 60  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Semtech-1N4148W_C81598.pdf" H 2850 2325 60  0001 C CNN
+F 4 "C81598" H 2850 2325 50  0001 C CNN "LCSC Part#"
+F 5 "Semtech" H 2850 2325 50  0001 C CNN "Mfr"
+F 6 "1N4148W" H 2850 2325 50  0001 C CNN "Part#"
 	1    2850 2325
 	-1   0    0    1   
 $EndComp
@@ -629,7 +641,10 @@ AR Path="/6032D8F0/60DCF353" Ref="D5:4"  Part="1"
 F 0 "D5:4" H 3400 2375 40  0000 C CNN
 F 1 "D" H 3550 2375 40  0000 C CNN
 F 2 "kbd:D3_SMD_v2_copy" H 3550 2325 60  0001 C CNN
-F 3 "" H 3550 2325 60  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Semtech-1N4148W_C81598.pdf" H 3550 2325 60  0001 C CNN
+F 4 "C81598" H 3550 2325 50  0001 C CNN "LCSC Part#"
+F 5 "Semtech" H 3550 2325 50  0001 C CNN "Mfr"
+F 6 "1N4148W" H 3550 2325 50  0001 C CNN "Part#"
 	1    3550 2325
 	-1   0    0    1   
 $EndComp
@@ -655,7 +670,10 @@ AR Path="/6032D8F0/60DCF35F" Ref="D5:3"  Part="1"
 F 0 "D5:3" H 4100 2375 40  0000 C CNN
 F 1 "D" H 4250 2375 40  0000 C CNN
 F 2 "kbd:D3_SMD_v2_copy" H 4250 2325 60  0001 C CNN
-F 3 "" H 4250 2325 60  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Semtech-1N4148W_C81598.pdf" H 4250 2325 60  0001 C CNN
+F 4 "C81598" H 4250 2325 50  0001 C CNN "LCSC Part#"
+F 5 "Semtech" H 4250 2325 50  0001 C CNN "Mfr"
+F 6 "1N4148W" H 4250 2325 50  0001 C CNN "Part#"
 	1    4250 2325
 	-1   0    0    1   
 $EndComp
@@ -681,7 +699,10 @@ AR Path="/6032D8F0/60DCF36B" Ref="D5:2"  Part="1"
 F 0 "D5:2" H 4800 2375 40  0000 C CNN
 F 1 "D" H 4950 2375 40  0000 C CNN
 F 2 "kbd:D3_SMD_v2_copy" H 4950 2325 60  0001 C CNN
-F 3 "" H 4950 2325 60  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Semtech-1N4148W_C81598.pdf" H 4950 2325 60  0001 C CNN
+F 4 "C81598" H 4950 2325 50  0001 C CNN "LCSC Part#"
+F 5 "Semtech" H 4950 2325 50  0001 C CNN "Mfr"
+F 6 "1N4148W" H 4950 2325 50  0001 C CNN "Part#"
 	1    4950 2325
 	-1   0    0    1   
 $EndComp
@@ -707,7 +728,10 @@ AR Path="/6032D8F0/60DCF377" Ref="D5:1"  Part="1"
 F 0 "D5:1" H 5500 2375 40  0000 C CNN
 F 1 "D" H 5650 2375 40  0000 C CNN
 F 2 "kbd:D3_SMD_v2_copy" H 5650 2325 60  0001 C CNN
-F 3 "" H 5650 2325 60  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Semtech-1N4148W_C81598.pdf" H 5650 2325 60  0001 C CNN
+F 4 "C81598" H 5650 2325 50  0001 C CNN "LCSC Part#"
+F 5 "Semtech" H 5650 2325 50  0001 C CNN "Mfr"
+F 6 "1N4148W" H 5650 2325 50  0001 C CNN "Part#"
 	1    5650 2325
 	-1   0    0    1   
 $EndComp
@@ -733,7 +757,10 @@ AR Path="/6032D8F0/60DCF383" Ref="D4:6"  Part="1"
 F 0 "D4:6" H 2025 3050 40  0000 C CNN
 F 1 "D" H 2150 3025 40  0000 C CNN
 F 2 "kbd:D3_SMD_v2_copy" H 2150 2975 60  0001 C CNN
-F 3 "" H 2150 2975 60  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Semtech-1N4148W_C81598.pdf" H 2150 2975 60  0001 C CNN
+F 4 "C81598" H 2150 2975 50  0001 C CNN "LCSC Part#"
+F 5 "Semtech" H 2150 2975 50  0001 C CNN "Mfr"
+F 6 "1N4148W" H 2150 2975 50  0001 C CNN "Part#"
 	1    2150 2975
 	-1   0    0    1   
 $EndComp
@@ -759,7 +786,10 @@ AR Path="/6032D8F0/60DCF38F" Ref="D4:5"  Part="1"
 F 0 "D4:5" H 2700 3025 40  0000 C CNN
 F 1 "D" H 2850 3025 40  0000 C CNN
 F 2 "kbd:D3_SMD_v2_copy" H 2850 2975 60  0001 C CNN
-F 3 "" H 2850 2975 60  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Semtech-1N4148W_C81598.pdf" H 2850 2975 60  0001 C CNN
+F 4 "C81598" H 2850 2975 50  0001 C CNN "LCSC Part#"
+F 5 "Semtech" H 2850 2975 50  0001 C CNN "Mfr"
+F 6 "1N4148W" H 2850 2975 50  0001 C CNN "Part#"
 	1    2850 2975
 	-1   0    0    1   
 $EndComp
@@ -785,7 +815,10 @@ AR Path="/6032D8F0/60DCF39B" Ref="D4:4"  Part="1"
 F 0 "D4:4" H 3400 3050 40  0000 C CNN
 F 1 "D4:9" H 3550 3025 40  0000 C CNN
 F 2 "kbd:D3_SMD_v2_copy" H 3550 2975 60  0001 C CNN
-F 3 "" H 3550 2975 60  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Semtech-1N4148W_C81598.pdf" H 3550 2975 60  0001 C CNN
+F 4 "C81598" H 3550 2975 50  0001 C CNN "LCSC Part#"
+F 5 "Semtech" H 3550 2975 50  0001 C CNN "Mfr"
+F 6 "1N4148W" H 3550 2975 50  0001 C CNN "Part#"
 	1    3550 2975
 	-1   0    0    1   
 $EndComp
@@ -811,7 +844,10 @@ AR Path="/6032D8F0/60DCF3A7" Ref="D4:3"  Part="1"
 F 0 "D4:3" H 4100 3050 40  0000 C CNN
 F 1 "D" H 4250 3025 40  0000 C CNN
 F 2 "kbd:D3_SMD_v2_copy" H 4250 2975 60  0001 C CNN
-F 3 "" H 4250 2975 60  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Semtech-1N4148W_C81598.pdf" H 4250 2975 60  0001 C CNN
+F 4 "C81598" H 4250 2975 50  0001 C CNN "LCSC Part#"
+F 5 "Semtech" H 4250 2975 50  0001 C CNN "Mfr"
+F 6 "1N4148W" H 4250 2975 50  0001 C CNN "Part#"
 	1    4250 2975
 	-1   0    0    1   
 $EndComp
@@ -837,7 +873,10 @@ AR Path="/6032D8F0/60DCF3B3" Ref="D4:2"  Part="1"
 F 0 "D4:2" H 4800 3050 40  0000 C CNN
 F 1 "D" H 4950 3025 40  0000 C CNN
 F 2 "kbd:D3_SMD_v2_copy" H 4950 2975 60  0001 C CNN
-F 3 "" H 4950 2975 60  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Semtech-1N4148W_C81598.pdf" H 4950 2975 60  0001 C CNN
+F 4 "C81598" H 4950 2975 50  0001 C CNN "LCSC Part#"
+F 5 "Semtech" H 4950 2975 50  0001 C CNN "Mfr"
+F 6 "1N4148W" H 4950 2975 50  0001 C CNN "Part#"
 	1    4950 2975
 	-1   0    0    1   
 $EndComp
@@ -863,7 +902,10 @@ AR Path="/6032D8F0/60DCF3BF" Ref="D4:1"  Part="1"
 F 0 "D4:1" H 5475 3050 40  0000 C CNN
 F 1 "D" H 5650 3025 40  0000 C CNN
 F 2 "kbd:D3_SMD_v2_copy" H 5650 2975 60  0001 C CNN
-F 3 "" H 5650 2975 60  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Semtech-1N4148W_C81598.pdf" H 5650 2975 60  0001 C CNN
+F 4 "C81598" H 5650 2975 50  0001 C CNN "LCSC Part#"
+F 5 "Semtech" H 5650 2975 50  0001 C CNN "Mfr"
+F 6 "1N4148W" H 5650 2975 50  0001 C CNN "Part#"
 	1    5650 2975
 	-1   0    0    1   
 $EndComp
@@ -889,7 +931,10 @@ AR Path="/6032D8F0/60DCF3CB" Ref="D4:0"  Part="1"
 F 0 "D4:0" H 6200 3050 40  0000 C CNN
 F 1 "D" H 6350 3025 40  0000 C CNN
 F 2 "kbd:D3_SMD_v2_copy" H 6350 2975 60  0001 C CNN
-F 3 "" H 6350 2975 60  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Semtech-1N4148W_C81598.pdf" H 6350 2975 60  0001 C CNN
+F 4 "C81598" H 6350 2975 50  0001 C CNN "LCSC Part#"
+F 5 "Semtech" H 6350 2975 50  0001 C CNN "Mfr"
+F 6 "1N4148W" H 6350 2975 50  0001 C CNN "Part#"
 	1    6350 2975
 	-1   0    0    1   
 $EndComp
@@ -902,7 +947,10 @@ AR Path="/6032D8F0/60DCF3D1" Ref="D0:1"  Part="1"
 F 0 "D0:1" H 5500 5625 40  0000 C CNN
 F 1 "D" H 5650 5625 40  0000 C CNN
 F 2 "kbd:D3_SMD_v2_copy" H 5650 5575 60  0001 C CNN
-F 3 "" H 5650 5575 60  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Semtech-1N4148W_C81598.pdf" H 5650 5575 60  0001 C CNN
+F 4 "C81598" H 5650 5575 50  0001 C CNN "LCSC Part#"
+F 5 "Semtech" H 5650 5575 50  0001 C CNN "Mfr"
+F 6 "1N4148W" H 5650 5575 50  0001 C CNN "Part#"
 	1    5650 5575
 	-1   0    0    1   
 $EndComp
@@ -928,7 +976,10 @@ AR Path="/6032D8F0/60DCF3DD" Ref="D0:2"  Part="1"
 F 0 "D0:2" H 4800 5625 40  0000 C CNN
 F 1 "D" H 4950 5625 40  0000 C CNN
 F 2 "kbd:D3_SMD_v2_copy" H 4950 5575 60  0001 C CNN
-F 3 "" H 4950 5575 60  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Semtech-1N4148W_C81598.pdf" H 4950 5575 60  0001 C CNN
+F 4 "C81598" H 4950 5575 50  0001 C CNN "LCSC Part#"
+F 5 "Semtech" H 4950 5575 50  0001 C CNN "Mfr"
+F 6 "1N4148W" H 4950 5575 50  0001 C CNN "Part#"
 	1    4950 5575
 	-1   0    0    1   
 $EndComp
@@ -954,7 +1005,10 @@ AR Path="/6032D8F0/60DCF3E9" Ref="D0:3"  Part="1"
 F 0 "D0:3" H 4100 5625 40  0000 C CNN
 F 1 "D" H 4250 5625 40  0000 C CNN
 F 2 "kbd:D3_SMD_v2_copy" H 4250 5575 60  0001 C CNN
-F 3 "" H 4250 5575 60  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Semtech-1N4148W_C81598.pdf" H 4250 5575 60  0001 C CNN
+F 4 "C81598" H 4250 5575 50  0001 C CNN "LCSC Part#"
+F 5 "Semtech" H 4250 5575 50  0001 C CNN "Mfr"
+F 6 "1N4148W" H 4250 5575 50  0001 C CNN "Part#"
 	1    4250 5575
 	-1   0    0    1   
 $EndComp
@@ -980,7 +1034,10 @@ AR Path="/6032D8F0/60DCF3F5" Ref="D0:4"  Part="1"
 F 0 "D0:4" H 3400 5625 40  0000 C CNN
 F 1 "D" H 3550 5625 40  0000 C CNN
 F 2 "kbd:D3_SMD_v2_copy" H 3550 5575 60  0001 C CNN
-F 3 "" H 3550 5575 60  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Semtech-1N4148W_C81598.pdf" H 3550 5575 60  0001 C CNN
+F 4 "C81598" H 3550 5575 50  0001 C CNN "LCSC Part#"
+F 5 "Semtech" H 3550 5575 50  0001 C CNN "Mfr"
+F 6 "1N4148W" H 3550 5575 50  0001 C CNN "Part#"
 	1    3550 5575
 	-1   0    0    1   
 $EndComp
@@ -1006,7 +1063,10 @@ AR Path="/6032D8F0/60DCF401" Ref="D0:5"  Part="1"
 F 0 "D0:5" H 2700 5625 40  0000 C CNN
 F 1 "D" H 2850 5625 40  0000 C CNN
 F 2 "kbd:D3_SMD_v2_copy" H 2850 5575 60  0001 C CNN
-F 3 "" H 2850 5575 60  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Semtech-1N4148W_C81598.pdf" H 2850 5575 60  0001 C CNN
+F 4 "C81598" H 2850 5575 50  0001 C CNN "LCSC Part#"
+F 5 "Semtech" H 2850 5575 50  0001 C CNN "Mfr"
+F 6 "1N4148W" H 2850 5575 50  0001 C CNN "Part#"
 	1    2850 5575
 	-1   0    0    1   
 $EndComp
@@ -1032,7 +1092,10 @@ AR Path="/6032D8F0/60DCF40D" Ref="D0:6"  Part="1"
 F 0 "D0:6" H 2000 5625 40  0000 C CNN
 F 1 "D" H 2150 5625 40  0000 C CNN
 F 2 "kbd:D3_SMD_v2_copy" H 2150 5575 60  0001 C CNN
-F 3 "" H 2150 5575 60  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Semtech-1N4148W_C81598.pdf" H 2150 5575 60  0001 C CNN
+F 4 "C81598" H 2150 5575 50  0001 C CNN "LCSC Part#"
+F 5 "Semtech" H 2150 5575 50  0001 C CNN "Mfr"
+F 6 "1N4148W" H 2150 5575 50  0001 C CNN "Part#"
 	1    2150 5575
 	-1   0    0    1   
 $EndComp
@@ -1058,7 +1121,10 @@ AR Path="/6032D8F0/60DCF419" Ref="D1:1"  Part="1"
 F 0 "D1:1" H 5500 4975 40  0000 C CNN
 F 1 "D" H 5650 4975 40  0000 C CNN
 F 2 "kbd:D3_SMD_v2_copy" H 5650 4925 60  0001 C CNN
-F 3 "" H 5650 4925 60  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Semtech-1N4148W_C81598.pdf" H 5650 4925 60  0001 C CNN
+F 4 "C81598" H 5650 4925 50  0001 C CNN "LCSC Part#"
+F 5 "Semtech" H 5650 4925 50  0001 C CNN "Mfr"
+F 6 "1N4148W" H 5650 4925 50  0001 C CNN "Part#"
 	1    5650 4925
 	-1   0    0    1   
 $EndComp
@@ -1084,7 +1150,10 @@ AR Path="/6032D8F0/60DCF425" Ref="D1:2"  Part="1"
 F 0 "D1:2" H 4800 4975 40  0000 C CNN
 F 1 "D" H 4950 4975 40  0000 C CNN
 F 2 "kbd:D3_SMD_v2_copy" H 4950 4925 60  0001 C CNN
-F 3 "" H 4950 4925 60  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Semtech-1N4148W_C81598.pdf" H 4950 4925 60  0001 C CNN
+F 4 "C81598" H 4950 4925 50  0001 C CNN "LCSC Part#"
+F 5 "Semtech" H 4950 4925 50  0001 C CNN "Mfr"
+F 6 "1N4148W" H 4950 4925 50  0001 C CNN "Part#"
 	1    4950 4925
 	-1   0    0    1   
 $EndComp
@@ -1110,7 +1179,10 @@ AR Path="/6032D8F0/60DCF431" Ref="D1:3"  Part="1"
 F 0 "D1:3" H 4100 4975 40  0000 C CNN
 F 1 "D" H 4250 4975 40  0000 C CNN
 F 2 "kbd:D3_SMD_v2_copy" H 4250 4925 60  0001 C CNN
-F 3 "" H 4250 4925 60  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Semtech-1N4148W_C81598.pdf" H 4250 4925 60  0001 C CNN
+F 4 "C81598" H 4250 4925 50  0001 C CNN "LCSC Part#"
+F 5 "Semtech" H 4250 4925 50  0001 C CNN "Mfr"
+F 6 "1N4148W" H 4250 4925 50  0001 C CNN "Part#"
 	1    4250 4925
 	-1   0    0    1   
 $EndComp
@@ -1136,7 +1208,10 @@ AR Path="/6032D8F0/60DCF43D" Ref="D1:4"  Part="1"
 F 0 "D1:4" H 3400 4975 40  0000 C CNN
 F 1 "D" H 3550 4975 40  0000 C CNN
 F 2 "kbd:D3_SMD_v2_copy" H 3550 4925 60  0001 C CNN
-F 3 "" H 3550 4925 60  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Semtech-1N4148W_C81598.pdf" H 3550 4925 60  0001 C CNN
+F 4 "C81598" H 3550 4925 50  0001 C CNN "LCSC Part#"
+F 5 "Semtech" H 3550 4925 50  0001 C CNN "Mfr"
+F 6 "1N4148W" H 3550 4925 50  0001 C CNN "Part#"
 	1    3550 4925
 	-1   0    0    1   
 $EndComp
@@ -1162,7 +1237,10 @@ AR Path="/6032D8F0/60DCF449" Ref="D2:0"  Part="1"
 F 0 "D2:0" H 6200 4325 40  0000 C CNN
 F 1 "D" H 6350 4325 40  0000 C CNN
 F 2 "kbd:D3_SMD_v2_copy" H 6350 4275 60  0001 C CNN
-F 3 "" H 6350 4275 60  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Semtech-1N4148W_C81598.pdf" H 6350 4275 60  0001 C CNN
+F 4 "C81598" H 6350 4275 50  0001 C CNN "LCSC Part#"
+F 5 "Semtech" H 6350 4275 50  0001 C CNN "Mfr"
+F 6 "1N4148W" H 6350 4275 50  0001 C CNN "Part#"
 	1    6350 4275
 	-1   0    0    1   
 $EndComp
@@ -1188,7 +1266,10 @@ AR Path="/6032D8F0/60DCF455" Ref="D2:1"  Part="1"
 F 0 "D2:1" H 5500 4325 40  0000 C CNN
 F 1 "D" H 5650 4325 40  0000 C CNN
 F 2 "kbd:D3_SMD_v2_copy" H 5650 4275 60  0001 C CNN
-F 3 "" H 5650 4275 60  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Semtech-1N4148W_C81598.pdf" H 5650 4275 60  0001 C CNN
+F 4 "C81598" H 5650 4275 50  0001 C CNN "LCSC Part#"
+F 5 "Semtech" H 5650 4275 50  0001 C CNN "Mfr"
+F 6 "1N4148W" H 5650 4275 50  0001 C CNN "Part#"
 	1    5650 4275
 	-1   0    0    1   
 $EndComp
@@ -1214,7 +1295,10 @@ AR Path="/6032D8F0/60DCF461" Ref="D2:2"  Part="1"
 F 0 "D2:2" H 4800 4325 40  0000 C CNN
 F 1 "D" H 4950 4325 40  0000 C CNN
 F 2 "kbd:D3_SMD_v2_copy" H 4950 4275 60  0001 C CNN
-F 3 "" H 4950 4275 60  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Semtech-1N4148W_C81598.pdf" H 4950 4275 60  0001 C CNN
+F 4 "C81598" H 4950 4275 50  0001 C CNN "LCSC Part#"
+F 5 "Semtech" H 4950 4275 50  0001 C CNN "Mfr"
+F 6 "1N4148W" H 4950 4275 50  0001 C CNN "Part#"
 	1    4950 4275
 	-1   0    0    1   
 $EndComp
@@ -1240,7 +1324,10 @@ AR Path="/6032D8F0/60DCF46D" Ref="D2:3"  Part="1"
 F 0 "D2:3" H 4100 4325 40  0000 C CNN
 F 1 "D" H 4250 4325 40  0000 C CNN
 F 2 "kbd:D3_SMD_v2_copy" H 4250 4275 60  0001 C CNN
-F 3 "" H 4250 4275 60  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Semtech-1N4148W_C81598.pdf" H 4250 4275 60  0001 C CNN
+F 4 "C81598" H 4250 4275 50  0001 C CNN "LCSC Part#"
+F 5 "Semtech" H 4250 4275 50  0001 C CNN "Mfr"
+F 6 "1N4148W" H 4250 4275 50  0001 C CNN "Part#"
 	1    4250 4275
 	-1   0    0    1   
 $EndComp
@@ -1266,7 +1353,10 @@ AR Path="/6032D8F0/60DCF479" Ref="D2:4"  Part="1"
 F 0 "D2:4" H 3400 4325 40  0000 C CNN
 F 1 "D" H 3550 4325 40  0000 C CNN
 F 2 "kbd:D3_SMD_v2_copy" H 3550 4275 60  0001 C CNN
-F 3 "" H 3550 4275 60  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Semtech-1N4148W_C81598.pdf" H 3550 4275 60  0001 C CNN
+F 4 "C81598" H 3550 4275 50  0001 C CNN "LCSC Part#"
+F 5 "Semtech" H 3550 4275 50  0001 C CNN "Mfr"
+F 6 "1N4148W" H 3550 4275 50  0001 C CNN "Part#"
 	1    3550 4275
 	-1   0    0    1   
 $EndComp
@@ -1292,7 +1382,10 @@ AR Path="/6032D8F0/60DCF485" Ref="D2:5"  Part="1"
 F 0 "D2:5" H 2700 4325 40  0000 C CNN
 F 1 "D" H 2850 4325 40  0000 C CNN
 F 2 "kbd:D3_SMD_v2_copy" H 2850 4275 60  0001 C CNN
-F 3 "" H 2850 4275 60  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Semtech-1N4148W_C81598.pdf" H 2850 4275 60  0001 C CNN
+F 4 "C81598" H 2850 4275 50  0001 C CNN "LCSC Part#"
+F 5 "Semtech" H 2850 4275 50  0001 C CNN "Mfr"
+F 6 "1N4148W" H 2850 4275 50  0001 C CNN "Part#"
 	1    2850 4275
 	-1   0    0    1   
 $EndComp
@@ -1318,7 +1411,10 @@ AR Path="/6032D8F0/60DCF491" Ref="D2:6"  Part="1"
 F 0 "D2:6" H 2025 4325 40  0000 C CNN
 F 1 "D" H 2150 4325 40  0000 C CNN
 F 2 "kbd:D3_SMD_v2_copy" H 2150 4275 60  0001 C CNN
-F 3 "" H 2150 4275 60  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Semtech-1N4148W_C81598.pdf" H 2150 4275 60  0001 C CNN
+F 4 "C81598" H 2150 4275 50  0001 C CNN "LCSC Part#"
+F 5 "Semtech" H 2150 4275 50  0001 C CNN "Mfr"
+F 6 "1N4148W" H 2150 4275 50  0001 C CNN "Part#"
 	1    2150 4275
 	-1   0    0    1   
 $EndComp
@@ -1344,7 +1440,10 @@ AR Path="/6032D8F0/60DCF49D" Ref="D3:0"  Part="1"
 F 0 "D3:0" H 6200 3675 40  0000 C CNN
 F 1 "D" H 6350 3675 40  0000 C CNN
 F 2 "kbd:D3_SMD_v2_copy" H 6350 3625 60  0001 C CNN
-F 3 "" H 6350 3625 60  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Semtech-1N4148W_C81598.pdf" H 6350 3625 60  0001 C CNN
+F 4 "C81598" H 6350 3625 50  0001 C CNN "LCSC Part#"
+F 5 "Semtech" H 6350 3625 50  0001 C CNN "Mfr"
+F 6 "1N4148W" H 6350 3625 50  0001 C CNN "Part#"
 	1    6350 3625
 	-1   0    0    1   
 $EndComp
@@ -1370,7 +1469,10 @@ AR Path="/6032D8F0/60DCF4A9" Ref="D3:1"  Part="1"
 F 0 "D3:1" H 5500 3675 40  0000 C CNN
 F 1 "D" H 5650 3675 40  0000 C CNN
 F 2 "kbd:D3_SMD_v2_copy" H 5650 3625 60  0001 C CNN
-F 3 "" H 5650 3625 60  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Semtech-1N4148W_C81598.pdf" H 5650 3625 60  0001 C CNN
+F 4 "C81598" H 5650 3625 50  0001 C CNN "LCSC Part#"
+F 5 "Semtech" H 5650 3625 50  0001 C CNN "Mfr"
+F 6 "1N4148W" H 5650 3625 50  0001 C CNN "Part#"
 	1    5650 3625
 	-1   0    0    1   
 $EndComp
@@ -1409,7 +1511,10 @@ AR Path="/6032D8F0/60DCF4BB" Ref="D3:3"  Part="1"
 F 0 "D3:3" H 4100 3675 40  0000 C CNN
 F 1 "D" H 4250 3675 40  0000 C CNN
 F 2 "kbd:D3_SMD_v2_copy" H 4250 3625 60  0001 C CNN
-F 3 "" H 4250 3625 60  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Semtech-1N4148W_C81598.pdf" H 4250 3625 60  0001 C CNN
+F 4 "C81598" H 4250 3625 50  0001 C CNN "LCSC Part#"
+F 5 "Semtech" H 4250 3625 50  0001 C CNN "Mfr"
+F 6 "1N4148W" H 4250 3625 50  0001 C CNN "Part#"
 	1    4250 3625
 	-1   0    0    1   
 $EndComp
@@ -1448,7 +1553,10 @@ AR Path="/6032D8F0/60DCF4CD" Ref="D3:5"  Part="1"
 F 0 "D3:5" H 2700 3700 40  0000 C CNN
 F 1 "D" H 2850 3675 40  0000 C CNN
 F 2 "kbd:D3_SMD_v2_copy" H 2850 3625 60  0001 C CNN
-F 3 "" H 2850 3625 60  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Semtech-1N4148W_C81598.pdf" H 2850 3625 60  0001 C CNN
+F 4 "C81598" H 2850 3625 50  0001 C CNN "LCSC Part#"
+F 5 "Semtech" H 2850 3625 50  0001 C CNN "Mfr"
+F 6 "1N4148W" H 2850 3625 50  0001 C CNN "Part#"
 	1    2850 3625
 	-1   0    0    1   
 $EndComp
@@ -1495,7 +1603,10 @@ AR Path="/6032D8F0/60DCF4E7" Ref="D3:4"  Part="1"
 F 0 "D3:4" H 3400 3675 40  0000 C CNN
 F 1 "D" H 3550 3675 40  0000 C CNN
 F 2 "kbd:D3_SMD_v2_copy" H 3550 3625 60  0001 C CNN
-F 3 "" H 3550 3625 60  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Semtech-1N4148W_C81598.pdf" H 3550 3625 60  0001 C CNN
+F 4 "C81598" H 3550 3625 50  0001 C CNN "LCSC Part#"
+F 5 "Semtech" H 3550 3625 50  0001 C CNN "Mfr"
+F 6 "1N4148W" H 3550 3625 50  0001 C CNN "Part#"
 	1    3550 3625
 	-1   0    0    1   
 $EndComp
@@ -1508,7 +1619,10 @@ AR Path="/6032D8F0/60DCF4ED" Ref="D3:2"  Part="1"
 F 0 "D3:2" H 4800 3675 40  0000 C CNN
 F 1 "D" H 4950 3675 40  0000 C CNN
 F 2 "kbd:D3_SMD_v2_copy" H 4950 3625 60  0001 C CNN
-F 3 "" H 4950 3625 60  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Semtech-1N4148W_C81598.pdf" H 4950 3625 60  0001 C CNN
+F 4 "C81598" H 4950 3625 50  0001 C CNN "LCSC Part#"
+F 5 "Semtech" H 4950 3625 50  0001 C CNN "Mfr"
+F 6 "1N4148W" H 4950 3625 50  0001 C CNN "Part#"
 	1    4950 3625
 	-1   0    0    1   
 $EndComp
@@ -1595,7 +1709,10 @@ AR Path="/6032D8F0/60DCF520" Ref="D1:0"  Part="1"
 F 0 "D1:0" H 6175 4975 40  0000 C CNN
 F 1 "D" H 6350 4975 40  0000 C CNN
 F 2 "kbd:D3_SMD_v2_copy" H 6350 4925 60  0001 C CNN
-F 3 "" H 6350 4925 60  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Semtech-1N4148W_C81598.pdf" H 6350 4925 60  0001 C CNN
+F 4 "C81598" H 6350 4925 50  0001 C CNN "LCSC Part#"
+F 5 "Semtech" H 6350 4925 50  0001 C CNN "Mfr"
+F 6 "1N4148W" H 6350 4925 50  0001 C CNN "Part#"
 	1    6350 4925
 	-1   0    0    1   
 $EndComp
@@ -1751,7 +1868,10 @@ AR Path="/6032D8F0/602BE970" Ref="J3"  Part="1"
 F 0 "J3" H 14250 5425 60  0000 C CNN
 F 1 "3.5mm" H 14250 4725 60  0000 C CNN
 F 2 "" H 14300 5075 60  0001 C CNN
-F 3 "" H 14300 5075 60  0001 C CNN
+F 3 "https://www.cuidevices.com/product/resource/sj-4351x.pdf" H 14300 5075 60  0001 C CNN
+F 4 "SJ-43514" H 14300 5075 50  0001 C CNN "LCSC Part#"
+F 5 "CUI Devices" H 14300 5075 50  0001 C CNN "Mfr"
+F 6 "CP-43514-ND" H 14300 5075 50  0001 C CNN "Part#"
 	1    14300 5075
 	0    -1   -1   0   
 $EndComp
@@ -1845,7 +1965,10 @@ AR Path="/6032D8F0/602C4ED6" Ref="D5:0"  Part="1"
 F 0 "D5:0" H 6200 2375 40  0000 C CNN
 F 1 "D" H 6350 2375 40  0000 C CNN
 F 2 "kbd:D3_SMD_v2_copy" H 6350 2325 60  0001 C CNN
-F 3 "" H 6350 2325 60  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Semtech-1N4148W_C81598.pdf" H 6350 2325 60  0001 C CNN
+F 4 "C81598" H 6350 2325 50  0001 C CNN "LCSC Part#"
+F 5 "Semtech" H 6350 2325 50  0001 C CNN "Mfr"
+F 6 "1N4148W" H 6350 2325 50  0001 C CNN "Part#"
 	1    6350 2325
 	-1   0    0    1   
 $EndComp
@@ -1854,8 +1977,8 @@ L component:SWITCH_PUSH SW5:?
 U 1 1 602F53B8
 P 6350 2050
 AR Path="/602F53B8" Ref="SW5:?"  Part="1" 
-AR Path="/6032D8F0/602F53B8" Ref="SW5:02"  Part="1" 
-F 0 "SW5:02" H 6525 2150 50  0000 C CNN
+AR Path="/6032D8F0/602F53B8" Ref="SW5:14"  Part="1" 
+F 0 "SW5:14" H 6525 2150 50  0000 C CNN
 F 1 "SW5:02" H 6200 2150 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-Hotswap" H 6350 2050 60  0001 C CNN
 F 3 "" H 6350 2050 60  0001 C CNN
@@ -1873,8 +1996,8 @@ L component:SWITCH_PUSH SW4:?
 U 1 1 60385A3D
 P 6350 2650
 AR Path="/60385A3D" Ref="SW4:?"  Part="1" 
-AR Path="/6032D8F0/60385A3D" Ref="SW4:02"  Part="1" 
-F 0 "SW4:02" H 6550 2775 50  0000 C CNN
+AR Path="/6032D8F0/60385A3D" Ref="SW4:14"  Part="1" 
+F 0 "SW4:14" H 6550 2775 50  0000 C CNN
 F 1 "SW4:02" H 6175 2775 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-Hotswap" H 6350 2650 60  0001 C CNN
 F 3 "" H 6350 2650 60  0001 C CNN
@@ -1896,7 +2019,10 @@ AR Path="/6032D8F0/60DCF258" Ref="D1:5"  Part="1"
 F 0 "D1:5" H 2675 5025 40  0000 C CNN
 F 1 "D" H 2850 5025 40  0000 C CNN
 F 2 "kbd:D3_SMD_v2_copy" H 2850 4975 60  0001 C CNN
-F 3 "" H 2850 4975 60  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Semtech-1N4148W_C81598.pdf" H 2850 4975 60  0001 C CNN
+F 4 "C81598" H 2850 4975 50  0001 C CNN "LCSC Part#"
+F 5 "Semtech" H 2850 4975 50  0001 C CNN "Mfr"
+F 6 "1N4148W" H 2850 4975 50  0001 C CNN "Part#"
 	1    2850 4975
 	-1   0    0    1   
 $EndComp
@@ -1905,8 +2031,8 @@ L component:SWITCH_PUSH SW2:?
 U 1 1 603DB506
 P 6350 4000
 AR Path="/603DB506" Ref="SW2:?"  Part="1" 
-AR Path="/6032D8F0/603DB506" Ref="SW2:02"  Part="1" 
-F 0 "SW2:02" H 6525 4100 50  0000 C CNN
+AR Path="/6032D8F0/603DB506" Ref="SW2:14"  Part="1" 
+F 0 "SW2:14" H 6525 4100 50  0000 C CNN
 F 1 "SW2:02" H 6175 4100 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-Hotswap" H 6350 4000 60  0001 C CNN
 F 3 "" H 6350 4000 60  0001 C CNN
@@ -1924,8 +2050,8 @@ L component:SWITCH_PUSH SW3:?
 U 1 1 604103B9
 P 6350 3325
 AR Path="/604103B9" Ref="SW3:?"  Part="1" 
-AR Path="/6032D8F0/604103B9" Ref="SW3:02"  Part="1" 
-F 0 "SW3:02" H 6500 3435 50  0000 C CNN
+AR Path="/6032D8F0/604103B9" Ref="SW3:14"  Part="1" 
+F 0 "SW3:14" H 6500 3435 50  0000 C CNN
 F 1 "SW3:02" H 6175 3425 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-Hotswap" H 6350 3325 60  0001 C CNN
 F 3 "" H 6350 3325 60  0001 C CNN
