@@ -1,0 +1,10 @@
+(module MX_LED (layer F.Cu) (tedit 4EC3E7B7)
+  (fp_text reference LED_A1 (at 0 0 180) (layer F.SilkS) hide
+    (effects (font (size 1.651 1.524) (thickness 0.254)))
+  )
+  (fp_text value LEDa (at 0 10.16 180) (layer F.SilkS)
+    (effects (font (size 1.651 1.524) (thickness 0.254)))
+  )
+  (pad 1 thru_hole circle (at -1.27 5.08) (size 1.651 1.651) (drill 0.9906) (layers *.Cu *.SilkS *.Mask))
+  (pad 2 thru_hole rect (at 1.27 5.08) (size 1.651 1.651) (drill 0.9906) (layers *.Cu *.SilkS *.Mask))
+)

@@ -1,22 +1,64 @@
-4838329302832
-2moons
-2moons2
+14510196707162
+ErgoDOX pcb
+4pin35mmAudio
 
 
 0
-3
+6
+6
+ErgoDOX pcb
+DRILLS
+
+
+0
+2
 1
-2moons
-SOIC127P1030X265-28N
+ErgoDOX pcb
+MX_FLIP_DIODE
 
 
 0
-28
-28
-2moons
-logo
+15
+6
+ErgoDOX pcb
+MX_FLIP_XX
 
 
 0
+20
+5
+ErgoDOX pcb
+MX_LED
+
+
 0
+2
+2
+ErgoDOX pcb
+RESISTOR
+
+
 0
+2
+2
+ErgoDOX pcb
+STAR
+
+
+0
+42
+7
+ErgoDOX pcb
+TEENSY_2.0_WITH_RESET
+
+
+0
+25
+25
+ErgoDOX pcb
+USBMINImod
+
+
+0
+12
+6
