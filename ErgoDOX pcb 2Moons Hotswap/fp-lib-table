@@ -4,4 +4,5 @@
   (lib (name eec)(type KiCad)(uri C:/Users/Zeus/Documents/GitHub/2moons-library/kicad-footprints/eec.pretty)(options "")(descr ""))
   (lib (name rescue-backup)(type KiCad)(uri "C:/Users/Zeus/Documents/GitHub/ErgoDox/ErgoDOX pcb/rescue-backup")(options "")(descr ""))
   (lib (name footprint)(type Legacy)(uri "C:/Users/Zeus/Documents/GitHub/ErgoDox/ErgoDOX pcb/footprint.mod")(options "")(descr ""))
+  (lib (name 2moons)(type KiCad)(uri C:/Users/ZEUS-NOTE/Documents/GitHub/2moons-library/kicad-footprints/2moons.pretty)(options "")(descr ""))
 )

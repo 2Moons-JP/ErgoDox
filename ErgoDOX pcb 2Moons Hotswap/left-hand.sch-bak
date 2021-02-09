@@ -71,7 +71,7 @@ LED_B
 Text Label 9000 2625 0    60   ~ 0
 LED_A
 $Comp
-L eec:MCP23018-E_SS U?
+L ErgoDOX-rescue:MCP23018-E_SS-eec U?
 U 1 1 60333F06
 P 7800 1025
 AR Path="/60333F06" Ref="U?"  Part="1" 

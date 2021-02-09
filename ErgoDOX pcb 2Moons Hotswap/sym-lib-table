@@ -2,4 +2,5 @@
   (lib (name component)(type Legacy)(uri ${KIPRJMOD}/component.lib)(options "")(descr ""))
   (lib (name ErgoDOX-rescue)(type Legacy)(uri ${KIPRJMOD}/ErgoDOX-rescue.lib)(options "")(descr ""))
   (lib (name eec)(type Legacy)(uri C:/Users/Zeus/Documents/GitHub/2moons-library/kicad-symbols/eec.lib)(options "")(descr ""))
+  (lib (name MCP23018-E_SO)(type Legacy)(uri C:/Users/ZEUS-NOTE/Documents/GitHub/2moons-library/kicad-symbols/MCP23018-E_SO.lib)(options "")(descr ""))
 )
