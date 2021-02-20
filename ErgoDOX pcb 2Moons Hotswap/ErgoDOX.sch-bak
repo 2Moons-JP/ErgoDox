@@ -220,7 +220,9 @@ P 2600 8650
 F 0 "SX1:8" H 2750 8760 50  0000 C CNN
 F 1 "SX1:5" H 2600 8570 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-Hotswap" H 2600 8650 60  0001 C CNN
-F 3 "" H 2600 8650 60  0001 C CNN
+F 3 "https://www.kailhswitch.com/uploads/201815927/PG151101S11.pdf?rnd=296" H 2600 8650 60  0001 C CNN
+F 4 "Kaihua Electronics Co.,LTD." H 2600 8650 50  0001 C CNN "Mfr"
+F 5 "PG151101S11" H 2600 8650 50  0001 C CNN "Part#"
 	1    2600 8650
 	1    0    0    -1  
 $EndComp
@@ -231,7 +233,9 @@ P 1900 8650
 F 0 "SX1:7" H 2050 8760 50  0000 C CNN
 F 1 "SX1:6" H 1900 8570 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-Hotswap" H 1900 8650 60  0001 C CNN
-F 3 "" H 1900 8650 60  0001 C CNN
+F 3 "https://www.kailhswitch.com/uploads/201815927/PG151101S11.pdf?rnd=296" H 1900 8650 60  0001 C CNN
+F 4 "Kaihua Electronics Co.,LTD." H 1900 8650 50  0001 C CNN "Mfr"
+F 5 "PG151101S11" H 1900 8650 50  0001 C CNN "Part#"
 	1    1900 8650
 	1    0    0    -1  
 $EndComp
@@ -242,7 +246,9 @@ P 4000 9250
 F 0 "SX0:10" H 4150 9360 50  0000 C CNN
 F 1 "SX0:3" H 4000 9170 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-Hotswap" H 4000 9250 60  0001 C CNN
-F 3 "" H 4000 9250 60  0001 C CNN
+F 3 "https://www.kailhswitch.com/uploads/201815927/PG151101S11.pdf?rnd=296" H 4000 9250 60  0001 C CNN
+F 4 "Kaihua Electronics Co.,LTD." H 4000 9250 50  0001 C CNN "Mfr"
+F 5 "PG151101S11" H 4000 9250 50  0001 C CNN "Part#"
 	1    4000 9250
 	1    0    0    -1  
 $EndComp
@@ -253,7 +259,9 @@ P 4700 9250
 F 0 "SX0:11" H 4850 9360 50  0000 C CNN
 F 1 "SX0:2" H 4700 9170 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-Hotswap" H 4700 9250 60  0001 C CNN
-F 3 "" H 4700 9250 60  0001 C CNN
+F 3 "https://www.kailhswitch.com/uploads/201815927/PG151101S11.pdf?rnd=296" H 4700 9250 60  0001 C CNN
+F 4 "Kaihua Electronics Co.,LTD." H 4700 9250 50  0001 C CNN "Mfr"
+F 5 "PG151101S11" H 4700 9250 50  0001 C CNN "Part#"
 	1    4700 9250
 	1    0    0    -1  
 $EndComp
@@ -1095,7 +1103,9 @@ P 1900 6050
 F 0 "SW5:7" H 2075 6150 50  0000 C CNN
 F 1 "SW5:7" H 1750 6150 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-Hotswap" H 1900 6050 60  0001 C CNN
-F 3 "" H 1900 6050 60  0001 C CNN
+F 3 "https://www.kailhswitch.com/uploads/201815927/PG151101S11.pdf?rnd=296" H 1900 6050 60  0001 C CNN
+F 4 "Kaihua Electronics Co.,LTD." H 1900 6050 50  0001 C CNN "Mfr"
+F 5 "PG151101S11" H 1900 6050 50  0001 C CNN "Part#"
 	1    1900 6050
 	1    0    0    -1  
 $EndComp
@@ -1124,7 +1134,9 @@ P 2600 6050
 F 0 "SW5:8" H 2775 6150 50  0000 C CNN
 F 1 "SW5:8" H 2450 6150 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-Hotswap" H 2600 6050 60  0001 C CNN
-F 3 "" H 2600 6050 60  0001 C CNN
+F 3 "https://www.kailhswitch.com/uploads/201815927/PG151101S11.pdf?rnd=296" H 2600 6050 60  0001 C CNN
+F 4 "Kaihua Electronics Co.,LTD." H 2600 6050 50  0001 C CNN "Mfr"
+F 5 "PG151101S11" H 2600 6050 50  0001 C CNN "Part#"
 	1    2600 6050
 	1    0    0    -1  
 $EndComp
@@ -1149,7 +1161,9 @@ P 3300 6050
 F 0 "SW5:9" H 3475 6150 50  0000 C CNN
 F 1 "SW5:9" H 3150 6150 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-Hotswap" H 3300 6050 60  0001 C CNN
-F 3 "" H 3300 6050 60  0001 C CNN
+F 3 "https://www.kailhswitch.com/uploads/201815927/PG151101S11.pdf?rnd=296" H 3300 6050 60  0001 C CNN
+F 4 "Kaihua Electronics Co.,LTD." H 3300 6050 50  0001 C CNN "Mfr"
+F 5 "PG151101S11" H 3300 6050 50  0001 C CNN "Part#"
 	1    3300 6050
 	1    0    0    -1  
 $EndComp
@@ -1174,7 +1188,9 @@ P 4000 6050
 F 0 "SW5:10" H 4175 6150 50  0000 C CNN
 F 1 "SW5:10" H 3850 6150 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-Hotswap" H 4000 6050 60  0001 C CNN
-F 3 "" H 4000 6050 60  0001 C CNN
+F 3 "https://www.kailhswitch.com/uploads/201815927/PG151101S11.pdf?rnd=296" H 4000 6050 60  0001 C CNN
+F 4 "Kaihua Electronics Co.,LTD." H 4000 6050 50  0001 C CNN "Mfr"
+F 5 "PG151101S11" H 4000 6050 50  0001 C CNN "Part#"
 	1    4000 6050
 	1    0    0    -1  
 $EndComp
@@ -1199,7 +1215,9 @@ P 4700 6050
 F 0 "SW5:11" H 4875 6150 50  0000 C CNN
 F 1 "SW5:11" H 4550 6150 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-Hotswap" H 4700 6050 60  0001 C CNN
-F 3 "" H 4700 6050 60  0001 C CNN
+F 3 "https://www.kailhswitch.com/uploads/201815927/PG151101S11.pdf?rnd=296" H 4700 6050 60  0001 C CNN
+F 4 "Kaihua Electronics Co.,LTD." H 4700 6050 50  0001 C CNN "Mfr"
+F 5 "PG151101S11" H 4700 6050 50  0001 C CNN "Part#"
 	1    4700 6050
 	1    0    0    -1  
 $EndComp
@@ -1224,7 +1242,9 @@ P 5400 6050
 F 0 "SW5:12" H 5575 6150 50  0000 C CNN
 F 1 "SW5:12" H 5250 6150 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-Hotswap" H 5400 6050 60  0001 C CNN
-F 3 "" H 5400 6050 60  0001 C CNN
+F 3 "https://www.kailhswitch.com/uploads/201815927/PG151101S11.pdf?rnd=296" H 5400 6050 60  0001 C CNN
+F 4 "Kaihua Electronics Co.,LTD." H 5400 6050 50  0001 C CNN "Mfr"
+F 5 "PG151101S11" H 5400 6050 50  0001 C CNN "Part#"
 	1    5400 6050
 	1    0    0    -1  
 $EndComp
@@ -1249,7 +1269,9 @@ P 1900 6700
 F 0 "SW4:7" H 2050 6810 50  0000 C CNN
 F 1 "SW4:7" H 1725 6800 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-Hotswap" H 1900 6700 60  0001 C CNN
-F 3 "" H 1900 6700 60  0001 C CNN
+F 3 "https://www.kailhswitch.com/uploads/201815927/PG151101S11.pdf?rnd=296" H 1900 6700 60  0001 C CNN
+F 4 "Kaihua Electronics Co.,LTD." H 1900 6700 50  0001 C CNN "Mfr"
+F 5 "PG151101S11" H 1900 6700 50  0001 C CNN "Part#"
 	1    1900 6700
 	1    0    0    -1  
 $EndComp
@@ -1274,7 +1296,9 @@ P 2600 6700
 F 0 "SW4:8" H 2750 6825 50  0000 C CNN
 F 1 "SW4:8" H 2450 6825 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-Hotswap" H 2600 6700 60  0001 C CNN
-F 3 "" H 2600 6700 60  0001 C CNN
+F 3 "https://www.kailhswitch.com/uploads/201815927/PG151101S11.pdf?rnd=296" H 2600 6700 60  0001 C CNN
+F 4 "Kaihua Electronics Co.,LTD." H 2600 6700 50  0001 C CNN "Mfr"
+F 5 "PG151101S11" H 2600 6700 50  0001 C CNN "Part#"
 	1    2600 6700
 	1    0    0    -1  
 $EndComp
@@ -1299,7 +1323,9 @@ P 3300 6700
 F 0 "SW4:9" H 3450 6825 50  0000 C CNN
 F 1 "SW4:9" H 3125 6825 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-Hotswap" H 3300 6700 60  0001 C CNN
-F 3 "" H 3300 6700 60  0001 C CNN
+F 3 "https://www.kailhswitch.com/uploads/201815927/PG151101S11.pdf?rnd=296" H 3300 6700 60  0001 C CNN
+F 4 "Kaihua Electronics Co.,LTD." H 3300 6700 50  0001 C CNN "Mfr"
+F 5 "PG151101S11" H 3300 6700 50  0001 C CNN "Part#"
 	1    3300 6700
 	1    0    0    -1  
 $EndComp
@@ -1324,7 +1350,9 @@ P 4000 6700
 F 0 "SW4:10" H 4175 6825 50  0000 C CNN
 F 1 "SW4:10" H 3825 6825 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-Hotswap" H 4000 6700 60  0001 C CNN
-F 3 "" H 4000 6700 60  0001 C CNN
+F 3 "https://www.kailhswitch.com/uploads/201815927/PG151101S11.pdf?rnd=296" H 4000 6700 60  0001 C CNN
+F 4 "Kaihua Electronics Co.,LTD." H 4000 6700 50  0001 C CNN "Mfr"
+F 5 "PG151101S11" H 4000 6700 50  0001 C CNN "Part#"
 	1    4000 6700
 	1    0    0    -1  
 $EndComp
@@ -1349,7 +1377,9 @@ P 4700 6700
 F 0 "SW4:11" H 4875 6825 50  0000 C CNN
 F 1 "SW4:11" H 4525 6825 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-Hotswap" H 4700 6700 60  0001 C CNN
-F 3 "" H 4700 6700 60  0001 C CNN
+F 3 "https://www.kailhswitch.com/uploads/201815927/PG151101S11.pdf?rnd=296" H 4700 6700 60  0001 C CNN
+F 4 "Kaihua Electronics Co.,LTD." H 4700 6700 50  0001 C CNN "Mfr"
+F 5 "PG151101S11" H 4700 6700 50  0001 C CNN "Part#"
 	1    4700 6700
 	1    0    0    -1  
 $EndComp
@@ -1374,7 +1404,9 @@ P 5400 6700
 F 0 "SW4:12" H 5600 6825 50  0000 C CNN
 F 1 "SW4:12" H 5200 6825 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-Hotswap" H 5400 6700 60  0001 C CNN
-F 3 "" H 5400 6700 60  0001 C CNN
+F 3 "https://www.kailhswitch.com/uploads/201815927/PG151101S11.pdf?rnd=296" H 5400 6700 60  0001 C CNN
+F 4 "Kaihua Electronics Co.,LTD." H 5400 6700 50  0001 C CNN "Mfr"
+F 5 "PG151101S11" H 5400 6700 50  0001 C CNN "Part#"
 	1    5400 6700
 	1    0    0    -1  
 $EndComp
@@ -1399,7 +1431,9 @@ P 6100 6700
 F 0 "SW4:13" H 6300 6825 50  0000 C CNN
 F 1 "SW4:13" H 5925 6825 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1.5U-Hotswap" H 6100 6700 60  0001 C CNN
-F 3 "" H 6100 6700 60  0001 C CNN
+F 3 "https://www.kailhswitch.com/uploads/201815927/PG151101S11.pdf?rnd=296" H 6100 6700 60  0001 C CNN
+F 4 "Kaihua Electronics Co.,LTD." H 6100 6700 50  0001 C CNN "Mfr"
+F 5 "PG151101S11" H 6100 6700 50  0001 C CNN "Part#"
 	1    6100 6700
 	1    0    0    -1  
 $EndComp
@@ -1438,7 +1472,9 @@ P 5400 9300
 F 0 "SW0:12" H 5575 9400 50  0000 C CNN
 F 1 "SW0:12" H 5225 9400 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-Hotswap" H 5400 9300 60  0001 C CNN
-F 3 "" H 5400 9300 60  0001 C CNN
+F 3 "https://www.kailhswitch.com/uploads/201815927/PG151101S11.pdf?rnd=296" H 5400 9300 60  0001 C CNN
+F 4 "Kaihua Electronics Co.,LTD." H 5400 9300 50  0001 C CNN "Mfr"
+F 5 "PG151101S11" H 5400 9300 50  0001 C CNN "Part#"
 	1    5400 9300
 	1    0    0    -1  
 $EndComp
@@ -1463,7 +1499,9 @@ P 4700 9300
 F 0 "SW0:11" H 4875 9400 50  0000 C CNN
 F 1 "SW0:11" H 4525 9400 50  0000 C CNN
 F 2 "MX_Only:MXOnly-2U-Hotswap-ReversedStabilizers" H 4700 9300 60  0001 C CNN
-F 3 "" H 4700 9300 60  0001 C CNN
+F 3 "https://www.kailhswitch.com/uploads/201815927/PG151101S11.pdf?rnd=296" H 4700 9300 60  0001 C CNN
+F 4 "Kaihua Electronics Co.,LTD." H 4700 9300 50  0001 C CNN "Mfr"
+F 5 "PG151101S11" H 4700 9300 50  0001 C CNN "Part#"
 	1    4700 9300
 	1    0    0    -1  
 $EndComp
@@ -1488,7 +1526,9 @@ P 4000 9300
 F 0 "SW0:10" H 4175 9400 50  0000 C CNN
 F 1 "SW0:10" H 3825 9400 50  0000 C CNN
 F 2 "MX_Only:MXOnly-2U-Hotswap" H 4000 9300 60  0001 C CNN
-F 3 "" H 4000 9300 60  0001 C CNN
+F 3 "https://www.kailhswitch.com/uploads/201815927/PG151101S11.pdf?rnd=296" H 4000 9300 60  0001 C CNN
+F 4 "Kaihua Electronics Co.,LTD." H 4000 9300 50  0001 C CNN "Mfr"
+F 5 "PG151101S11" H 4000 9300 50  0001 C CNN "Part#"
 	1    4000 9300
 	1    0    0    -1  
 $EndComp
@@ -1513,7 +1553,9 @@ P 3300 9300
 F 0 "SW0:9" H 3450 9400 50  0000 C CNN
 F 1 "SW0:9" H 3125 9400 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-Hotswap" H 3300 9300 60  0001 C CNN
-F 3 "" H 3300 9300 60  0001 C CNN
+F 3 "https://www.kailhswitch.com/uploads/201815927/PG151101S11.pdf?rnd=296" H 3300 9300 60  0001 C CNN
+F 4 "Kaihua Electronics Co.,LTD." H 3300 9300 50  0001 C CNN "Mfr"
+F 5 "PG151101S11" H 3300 9300 50  0001 C CNN "Part#"
 	1    3300 9300
 	1    0    0    -1  
 $EndComp
@@ -1538,7 +1580,9 @@ P 2600 9300
 F 0 "SW0:8" H 2750 9400 50  0000 C CNN
 F 1 "SW0:8" H 2425 9400 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-Hotswap" H 2600 9300 60  0001 C CNN
-F 3 "" H 2600 9300 60  0001 C CNN
+F 3 "https://www.kailhswitch.com/uploads/201815927/PG151101S11.pdf?rnd=296" H 2600 9300 60  0001 C CNN
+F 4 "Kaihua Electronics Co.,LTD." H 2600 9300 50  0001 C CNN "Mfr"
+F 5 "PG151101S11" H 2600 9300 50  0001 C CNN "Part#"
 	1    2600 9300
 	1    0    0    -1  
 $EndComp
@@ -1563,7 +1607,9 @@ P 1900 9300
 F 0 "SW0:7" H 2050 9410 50  0000 C CNN
 F 1 "SW0:7" H 1750 9400 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-Hotswap" H 1900 9300 60  0001 C CNN
-F 3 "" H 1900 9300 60  0001 C CNN
+F 3 "https://www.kailhswitch.com/uploads/201815927/PG151101S11.pdf?rnd=296" H 1900 9300 60  0001 C CNN
+F 4 "Kaihua Electronics Co.,LTD." H 1900 9300 50  0001 C CNN "Mfr"
+F 5 "PG151101S11" H 1900 9300 50  0001 C CNN "Part#"
 	1    1900 9300
 	1    0    0    -1  
 $EndComp
@@ -1588,7 +1634,9 @@ P 5400 8650
 F 0 "SW1:12" H 5575 8750 50  0000 C CNN
 F 1 "SW1:12" H 5225 8750 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-Hotswap" H 5400 8650 60  0001 C CNN
-F 3 "" H 5400 8650 60  0001 C CNN
+F 3 "https://www.kailhswitch.com/uploads/201815927/PG151101S11.pdf?rnd=296" H 5400 8650 60  0001 C CNN
+F 4 "Kaihua Electronics Co.,LTD." H 5400 8650 50  0001 C CNN "Mfr"
+F 5 "PG151101S11" H 5400 8650 50  0001 C CNN "Part#"
 	1    5400 8650
 	1    0    0    -1  
 $EndComp
@@ -1613,7 +1661,9 @@ P 4700 8650
 F 0 "SW1:11" H 4875 8750 50  0000 C CNN
 F 1 "SW1:11" H 4525 8750 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-Hotswap" H 4700 8650 60  0001 C CNN
-F 3 "" H 4700 8650 60  0001 C CNN
+F 3 "https://www.kailhswitch.com/uploads/201815927/PG151101S11.pdf?rnd=296" H 4700 8650 60  0001 C CNN
+F 4 "Kaihua Electronics Co.,LTD." H 4700 8650 50  0001 C CNN "Mfr"
+F 5 "PG151101S11" H 4700 8650 50  0001 C CNN "Part#"
 	1    4700 8650
 	1    0    0    -1  
 $EndComp
@@ -1638,7 +1688,9 @@ P 4000 8650
 F 0 "SW1:10" H 4175 8750 50  0000 C CNN
 F 1 "SW1:10" H 3825 8750 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-Hotswap" H 4000 8650 60  0001 C CNN
-F 3 "" H 4000 8650 60  0001 C CNN
+F 3 "https://www.kailhswitch.com/uploads/201815927/PG151101S11.pdf?rnd=296" H 4000 8650 60  0001 C CNN
+F 4 "Kaihua Electronics Co.,LTD." H 4000 8650 50  0001 C CNN "Mfr"
+F 5 "PG151101S11" H 4000 8650 50  0001 C CNN "Part#"
 	1    4000 8650
 	1    0    0    -1  
 $EndComp
@@ -1663,7 +1715,9 @@ P 3300 8650
 F 0 "SW1:9" H 3450 8760 50  0000 C CNN
 F 1 "SW1:9" H 3125 8750 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-Hotswap" H 3300 8650 60  0001 C CNN
-F 3 "" H 3300 8650 60  0001 C CNN
+F 3 "https://www.kailhswitch.com/uploads/201815927/PG151101S11.pdf?rnd=296" H 3300 8650 60  0001 C CNN
+F 4 "Kaihua Electronics Co.,LTD." H 3300 8650 50  0001 C CNN "Mfr"
+F 5 "PG151101S11" H 3300 8650 50  0001 C CNN "Part#"
 	1    3300 8650
 	1    0    0    -1  
 $EndComp
@@ -1688,7 +1742,9 @@ P 6100 8000
 F 0 "SW2:13" H 6275 8100 50  0000 C CNN
 F 1 "SW2:13" H 5925 8100 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1.5U-Hotswap" H 6100 8000 60  0001 C CNN
-F 3 "" H 6100 8000 60  0001 C CNN
+F 3 "https://www.kailhswitch.com/uploads/201815927/PG151101S11.pdf?rnd=296" H 6100 8000 60  0001 C CNN
+F 4 "Kaihua Electronics Co.,LTD." H 6100 8000 50  0001 C CNN "Mfr"
+F 5 "PG151101S11" H 6100 8000 50  0001 C CNN "Part#"
 	1    6100 8000
 	1    0    0    -1  
 $EndComp
@@ -1713,7 +1769,9 @@ P 5400 8000
 F 0 "SW2:12" H 5575 8100 50  0000 C CNN
 F 1 "SW2:12" H 5225 8100 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-Hotswap" H 5400 8000 60  0001 C CNN
-F 3 "" H 5400 8000 60  0001 C CNN
+F 3 "https://www.kailhswitch.com/uploads/201815927/PG151101S11.pdf?rnd=296" H 5400 8000 60  0001 C CNN
+F 4 "Kaihua Electronics Co.,LTD." H 5400 8000 50  0001 C CNN "Mfr"
+F 5 "PG151101S11" H 5400 8000 50  0001 C CNN "Part#"
 	1    5400 8000
 	1    0    0    -1  
 $EndComp
@@ -1738,7 +1796,9 @@ P 4700 8000
 F 0 "SW2:11" H 4850 8110 50  0000 C CNN
 F 1 "SW2:11" H 4525 8100 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-Hotswap" H 4700 8000 60  0001 C CNN
-F 3 "" H 4700 8000 60  0001 C CNN
+F 3 "https://www.kailhswitch.com/uploads/201815927/PG151101S11.pdf?rnd=296" H 4700 8000 60  0001 C CNN
+F 4 "Kaihua Electronics Co.,LTD." H 4700 8000 50  0001 C CNN "Mfr"
+F 5 "PG151101S11" H 4700 8000 50  0001 C CNN "Part#"
 	1    4700 8000
 	1    0    0    -1  
 $EndComp
@@ -1763,7 +1823,9 @@ P 4000 8000
 F 0 "SW2:10" H 4150 8110 50  0000 C CNN
 F 1 "SW2:10" H 3850 8125 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-Hotswap" H 4000 8000 60  0001 C CNN
-F 3 "" H 4000 8000 60  0001 C CNN
+F 3 "https://www.kailhswitch.com/uploads/201815927/PG151101S11.pdf?rnd=296" H 4000 8000 60  0001 C CNN
+F 4 "Kaihua Electronics Co.,LTD." H 4000 8000 50  0001 C CNN "Mfr"
+F 5 "PG151101S11" H 4000 8000 50  0001 C CNN "Part#"
 	1    4000 8000
 	1    0    0    -1  
 $EndComp
@@ -1788,7 +1850,9 @@ P 3300 8000
 F 0 "SW2:9" H 3450 8110 50  0000 C CNN
 F 1 "SW2:9" H 3150 8100 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-Hotswap" H 3300 8000 60  0001 C CNN
-F 3 "" H 3300 8000 60  0001 C CNN
+F 3 "https://www.kailhswitch.com/uploads/201815927/PG151101S11.pdf?rnd=296" H 3300 8000 60  0001 C CNN
+F 4 "Kaihua Electronics Co.,LTD." H 3300 8000 50  0001 C CNN "Mfr"
+F 5 "PG151101S11" H 3300 8000 50  0001 C CNN "Part#"
 	1    3300 8000
 	1    0    0    -1  
 $EndComp
@@ -1813,7 +1877,9 @@ P 2600 8000
 F 0 "SW2:8" H 2750 8110 50  0000 C CNN
 F 1 "SW2:8" H 2425 8100 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-Hotswap" H 2600 8000 60  0001 C CNN
-F 3 "" H 2600 8000 60  0001 C CNN
+F 3 "https://www.kailhswitch.com/uploads/201815927/PG151101S11.pdf?rnd=296" H 2600 8000 60  0001 C CNN
+F 4 "Kaihua Electronics Co.,LTD." H 2600 8000 50  0001 C CNN "Mfr"
+F 5 "PG151101S11" H 2600 8000 50  0001 C CNN "Part#"
 	1    2600 8000
 	1    0    0    -1  
 $EndComp
@@ -1838,7 +1904,9 @@ P 1900 8000
 F 0 "SW2:7" H 2050 8110 50  0000 C CNN
 F 1 "SW2:7" H 1725 8100 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-Hotswap" H 1900 8000 60  0001 C CNN
-F 3 "" H 1900 8000 60  0001 C CNN
+F 3 "https://www.kailhswitch.com/uploads/201815927/PG151101S11.pdf?rnd=296" H 1900 8000 60  0001 C CNN
+F 4 "Kaihua Electronics Co.,LTD." H 1900 8000 50  0001 C CNN "Mfr"
+F 5 "PG151101S11" H 1900 8000 50  0001 C CNN "Part#"
 	1    1900 8000
 	1    0    0    -1  
 $EndComp
@@ -1863,7 +1931,9 @@ P 6100 7350
 F 0 "SW3:13" H 6250 7460 50  0000 C CNN
 F 1 "SW3:13" H 5925 7450 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1.5U-Hotswap" H 6100 7350 60  0001 C CNN
-F 3 "" H 6100 7350 60  0001 C CNN
+F 3 "https://www.kailhswitch.com/uploads/201815927/PG151101S11.pdf?rnd=296" H 6100 7350 60  0001 C CNN
+F 4 "Kaihua Electronics Co.,LTD." H 6100 7350 50  0001 C CNN "Mfr"
+F 5 "PG151101S11" H 6100 7350 50  0001 C CNN "Part#"
 	1    6100 7350
 	1    0    0    -1  
 $EndComp
@@ -1888,7 +1958,9 @@ P 5400 7350
 F 0 "SW3:12" H 5550 7460 50  0000 C CNN
 F 1 "SW3:12" H 5225 7450 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-Hotswap" H 5400 7350 60  0001 C CNN
-F 3 "" H 5400 7350 60  0001 C CNN
+F 3 "https://www.kailhswitch.com/uploads/201815927/PG151101S11.pdf?rnd=296" H 5400 7350 60  0001 C CNN
+F 4 "Kaihua Electronics Co.,LTD." H 5400 7350 50  0001 C CNN "Mfr"
+F 5 "PG151101S11" H 5400 7350 50  0001 C CNN "Part#"
 	1    5400 7350
 	1    0    0    -1  
 $EndComp
@@ -1899,7 +1971,9 @@ P 4700 7350
 F 0 "SW3:11" H 4850 7460 50  0000 C CNN
 F 1 "SW3:11" H 4525 7450 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-Hotswap" H 4700 7350 60  0001 C CNN
-F 3 "" H 4700 7350 60  0001 C CNN
+F 3 "https://www.kailhswitch.com/uploads/201815927/PG151101S11.pdf?rnd=296" H 4700 7350 60  0001 C CNN
+F 4 "Kaihua Electronics Co.,LTD." H 4700 7350 50  0001 C CNN "Mfr"
+F 5 "PG151101S11" H 4700 7350 50  0001 C CNN "Part#"
 	1    4700 7350
 	1    0    0    -1  
 $EndComp
@@ -1924,7 +1998,9 @@ P 4000 7350
 F 0 "SW3:10" H 4150 7460 50  0000 C CNN
 F 1 "SW3:10" H 3825 7450 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-Hotswap" H 4000 7350 60  0001 C CNN
-F 3 "" H 4000 7350 60  0001 C CNN
+F 3 "https://www.kailhswitch.com/uploads/201815927/PG151101S11.pdf?rnd=296" H 4000 7350 60  0001 C CNN
+F 4 "Kaihua Electronics Co.,LTD." H 4000 7350 50  0001 C CNN "Mfr"
+F 5 "PG151101S11" H 4000 7350 50  0001 C CNN "Part#"
 	1    4000 7350
 	1    0    0    -1  
 $EndComp
@@ -1935,7 +2011,9 @@ P 3300 7350
 F 0 "SW3:9" H 3450 7460 50  0000 C CNN
 F 1 "SW3:9" H 3125 7450 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-Hotswap" H 3300 7350 60  0001 C CNN
-F 3 "" H 3300 7350 60  0001 C CNN
+F 3 "https://www.kailhswitch.com/uploads/201815927/PG151101S11.pdf?rnd=296" H 3300 7350 60  0001 C CNN
+F 4 "Kaihua Electronics Co.,LTD." H 3300 7350 50  0001 C CNN "Mfr"
+F 5 "PG151101S11" H 3300 7350 50  0001 C CNN "Part#"
 	1    3300 7350
 	1    0    0    -1  
 $EndComp
@@ -1960,7 +2038,9 @@ P 2600 7350
 F 0 "SW3:8" H 2750 7460 50  0000 C CNN
 F 1 "SW3:8" H 2425 7450 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-Hotswap" H 2600 7350 60  0001 C CNN
-F 3 "" H 2600 7350 60  0001 C CNN
+F 3 "https://www.kailhswitch.com/uploads/201815927/PG151101S11.pdf?rnd=296" H 2600 7350 60  0001 C CNN
+F 4 "Kaihua Electronics Co.,LTD." H 2600 7350 50  0001 C CNN "Mfr"
+F 5 "PG151101S11" H 2600 7350 50  0001 C CNN "Part#"
 	1    2600 7350
 	1    0    0    -1  
 $EndComp
@@ -2081,7 +2161,9 @@ P 6100 8650
 F 0 "SW1:13" H 6250 8760 50  0000 C CNN
 F 1 "SW1:13" H 5900 8750 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-Hotswap" H 6100 8650 60  0001 C CNN
-F 3 "" H 6100 8650 60  0001 C CNN
+F 3 "https://www.kailhswitch.com/uploads/201815927/PG151101S11.pdf?rnd=296" H 6100 8650 60  0001 C CNN
+F 4 "Kaihua Electronics Co.,LTD." H 6100 8650 50  0001 C CNN "Mfr"
+F 5 "PG151101S11" H 6100 8650 50  0001 C CNN "Part#"
 	1    6100 8650
 	1    0    0    -1  
 $EndComp
@@ -2173,7 +2255,9 @@ P 6100 6050
 F 0 "SW5:13" H 6275 6150 50  0000 C CNN
 F 1 "SW5:13" H 5950 6150 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1.5U-Hotswap" H 6100 6050 60  0001 C CNN
-F 3 "" H 6100 6050 60  0001 C CNN
+F 3 "https://www.kailhswitch.com/uploads/201815927/PG151101S11.pdf?rnd=296" H 6100 6050 60  0001 C CNN
+F 4 "Kaihua Electronics Co.,LTD." H 6100 6050 50  0001 C CNN "Mfr"
+F 5 "PG151101S11" H 6100 6050 50  0001 C CNN "Part#"
 	1    6100 6050
 	1    0    0    -1  
 $EndComp
@@ -2198,7 +2282,9 @@ P 6100 5875
 F 0 "SW5:132" H 6275 5975 50  0000 C CNN
 F 1 "SW5:132" H 5950 5975 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-Hotswap" H 6100 5875 60  0001 C CNN
-F 3 "" H 6100 5875 60  0001 C CNN
+F 3 "https://www.kailhswitch.com/uploads/201815927/PG151101S11.pdf?rnd=296" H 6100 5875 60  0001 C CNN
+F 4 "Kaihua Electronics Co.,LTD." H 6100 5875 50  0001 C CNN "Mfr"
+F 5 "PG151101S11" H 6100 5875 50  0001 C CNN "Part#"
 	1    6100 5875
 	1    0    0    -1  
 $EndComp
@@ -2215,7 +2301,9 @@ P 6100 6525
 F 0 "SW4:132" H 6300 6650 50  0000 C CNN
 F 1 "SW4:132" H 5925 6650 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-Hotswap" H 6100 6525 60  0001 C CNN
-F 3 "" H 6100 6525 60  0001 C CNN
+F 3 "https://www.kailhswitch.com/uploads/201815927/PG151101S11.pdf?rnd=296" H 6100 6525 60  0001 C CNN
+F 4 "Kaihua Electronics Co.,LTD." H 6100 6525 50  0001 C CNN "Mfr"
+F 5 "PG151101S11" H 6100 6525 50  0001 C CNN "Part#"
 	1    6100 6525
 	1    0    0    -1  
 $EndComp
@@ -2232,7 +2320,9 @@ P 6100 7175
 F 0 "SW3:132" H 6250 7285 50  0000 C CNN
 F 1 "SW3:132" H 5925 7275 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-Hotswap" H 6100 7175 60  0001 C CNN
-F 3 "" H 6100 7175 60  0001 C CNN
+F 3 "https://www.kailhswitch.com/uploads/201815927/PG151101S11.pdf?rnd=296" H 6100 7175 60  0001 C CNN
+F 4 "Kaihua Electronics Co.,LTD." H 6100 7175 50  0001 C CNN "Mfr"
+F 5 "PG151101S11" H 6100 7175 50  0001 C CNN "Part#"
 	1    6100 7175
 	1    0    0    -1  
 $EndComp
@@ -2249,7 +2339,9 @@ P 6100 7800
 F 0 "SW2:132" H 6275 7900 50  0000 C CNN
 F 1 "SW2:132" H 5925 7900 50  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-Hotswap" H 6100 7800 60  0001 C CNN
-F 3 "" H 6100 7800 60  0001 C CNN
+F 3 "https://www.kailhswitch.com/uploads/201815927/PG151101S11.pdf?rnd=296" H 6100 7800 60  0001 C CNN
+F 4 "Kaihua Electronics Co.,LTD." H 6100 7800 50  0001 C CNN "Mfr"
+F 5 "PG151101S11" H 6100 7800 50  0001 C CNN "Part#"
 	1    6100 7800
 	1    0    0    -1  
 $EndComp
@@ -2363,4 +2455,11 @@ F 3 "" H -1200 3025 60  0001 C CNN
 	1    -1200 3025
 	1    0    0    -1  
 $EndComp
+NoConn ~ 1950 2800
+NoConn ~ 1950 2900
+NoConn ~ 1950 3000
+NoConn ~ 1950 3100
+NoConn ~ 1950 3400
+NoConn ~ 1950 2200
+NoConn ~ 1950 1600
 $EndSCHEMATC
